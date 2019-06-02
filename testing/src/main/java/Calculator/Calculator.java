@@ -9,5 +9,12 @@ public class Calculator {
         this.B = B;
     }
 
+    public int getA(){
+        return A;
+    }
+
+    public int getB(){
+        return B;
+    }
 
 }
