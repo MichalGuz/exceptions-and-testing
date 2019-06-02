@@ -1,3 +1,5 @@
+package Member;
+
 public class Member {
     public String memberName;
     public  int memberNumber;
