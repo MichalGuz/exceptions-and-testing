@@ -21,4 +21,8 @@ public class Calculator {
         return A + B;
     }
 
+    public int subtract(int A, int B){
+        return A -B;
+    }
+
 }
