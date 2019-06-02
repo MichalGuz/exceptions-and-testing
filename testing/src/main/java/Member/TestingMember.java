@@ -1,6 +1,6 @@
 package Member;
 
-public class TestingMain {
+public class TestingMember {
     public static void main(String[] args) {
         Member member = new Member("Mysterious Member.Member", 999);
 
