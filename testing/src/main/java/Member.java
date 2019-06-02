@@ -1,11 +1,13 @@
 public class Member {
-    public String member;
+    public String memberName;
+    public  int memberNumber;
 
-    public Member(String member){
-        this.member = member;
+    public Member(String memberName, int memberNumber){
+        this.memberName = memberName;
+        this.memberNumber = memberNumber;
     }
 
-    public String getMember(){
-        return member;
+    public String getMemberName(){
+        return memberName;
     }
 }
