@@ -14,6 +14,14 @@ public class TestingCalculator {
         }
         System.out.println("Test finished");
 
-
+        //test of method subtract()
+        System.out.println("Start the test of method subtract()");
+        int resultOfSubtracting = calculator.getA() - calculator.getB();
+        if(resultOfSubtracting == calculator.subtract(calculator.getA(), calculator.getB())){
+            System.out.println("test OK");
+        } else {
+            System.out.println("error!");
+        }
+        System.out.println("Test finished");
     }
 }
