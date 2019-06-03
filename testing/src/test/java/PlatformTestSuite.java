@@ -13,7 +13,7 @@ public class PlatformTestSuite {
     }
 
     @BeforeClass
-    public void beforeClass(){
+    public static void beforeClass(){
         System.out.println("Test suite of platform: start!\n[connecting with database of platform]");
     }
 
