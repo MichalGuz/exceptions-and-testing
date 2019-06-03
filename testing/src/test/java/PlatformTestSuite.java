@@ -15,6 +15,12 @@ public class PlatformTestSuite {
 
     @Test
     public void testCaseMembersNumber(){
+        // Given
+        Member member = new Member("Adam", 101);
+        // When
+        int result = member.getMemberNumber();
+        // Then
+        Assert.assertEquals(101, result);
 
     }
 }
