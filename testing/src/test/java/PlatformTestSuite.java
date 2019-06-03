@@ -12,4 +12,9 @@ public class PlatformTestSuite {
         // Then
         Assert.assertEquals("Adam", result);
     }
+
+    @Test
+    public void testCaseMembersNumber(){
+
+    }
 }
