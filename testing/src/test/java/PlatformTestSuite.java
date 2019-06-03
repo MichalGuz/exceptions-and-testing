@@ -1,4 +1,5 @@
 import Member.Member;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,6 +9,12 @@ public class PlatformTestSuite {
     public void before(){
         System.out.println("Test case: start!");
     }
+
+    @After
+    public void after(){
+        System.out.println("Test case: finished.");
+    }
+
     @Test
     public void testCaseMemberName(){
         // Given
