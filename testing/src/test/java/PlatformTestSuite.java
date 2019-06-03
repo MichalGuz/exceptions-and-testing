@@ -10,6 +10,6 @@ public class PlatformTestSuite {
         // When
         String result = member.getMemberName();
         // Then
-        Assert.assertEquals("Adem", result);
+        Assert.assertEquals("Adam", result);
     }
 }
