@@ -17,6 +17,11 @@ public class PlatformTestSuite {
         System.out.println("Test suite of platform: start!\n[connecting with database of platform]");
     }
 
+    @AfterClass
+    public static void afterClass(){
+        System.out.println("Test suite of platform: end.");
+    }
+
     @Test
     public void testCaseMemberName(){
         // Given
