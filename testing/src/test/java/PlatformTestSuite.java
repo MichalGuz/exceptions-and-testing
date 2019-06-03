@@ -1,8 +1,13 @@
 import Member.Member;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 public class PlatformTestSuite {
+    @Before
+    public void before(){
+        System.out.println("Test case: start!");
+    }
     @Test
     public void testCaseMemberName(){
         // Given
