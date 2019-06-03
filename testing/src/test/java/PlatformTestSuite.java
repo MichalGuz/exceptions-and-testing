@@ -1,8 +1,5 @@
 import Member.Member;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 public class PlatformTestSuite {
     @Before
@@ -13,6 +10,11 @@ public class PlatformTestSuite {
     @After
     public void after(){
         System.out.println("Test case: finished.");
+    }
+
+    @BeforeClass
+    public void beforeClass(){
+        System.out.println("Test suite of platform: start!\n[connecting with database of platform]");
     }
 
     @Test
