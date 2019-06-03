@@ -1,4 +1,5 @@
 import Member.Member;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class PlatformTestSuite {
@@ -7,8 +8,8 @@ public class PlatformTestSuite {
         // Given
         Member member = new Member("Adam", 101);
         // When
-
+        String result = member.getMemberName();
         // Then
-
+        Assert
     }
 }
