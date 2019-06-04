@@ -1,4 +1,4 @@
-package Calculator;
+package calculator;
 
 public class TestingCalculator {
     public static void main(String[] args) {
