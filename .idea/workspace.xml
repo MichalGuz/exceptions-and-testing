@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/build/classes/java/test/PlatformTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/classes/java/test/PlatformTestSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/PlatformTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/PlatformTestSuite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/TEST-PlatformTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-PlatformTestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/src/main/java/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/src/main/java/Calculator/TestingCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/calculator/TestingCalculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -197,12 +183,12 @@
   </component>
   <component name="RunManager" selected="Gradle.PlatformTestSuite">
     <configuration name="TestingCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator.TestingCalculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.TestingCalculator" />
       <module name="exceptions-and-testing.testing.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Calculator.*" />
+          <option name="PATTERN" value="calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,7 +290,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25809062" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25809062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,10 +369,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/Calculator/TestingCalculator.java">
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/calculator/TestingCalculator.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/Calculator/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
