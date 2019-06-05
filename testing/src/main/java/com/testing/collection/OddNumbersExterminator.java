@@ -12,6 +12,7 @@ public class OddNumbersExterminator {
         for(int i = 0; i < 50; i++){
             numbers.add(a);
         }
+        System.out.println(numbers.size());
         return evenNumbers;
     }
 }
