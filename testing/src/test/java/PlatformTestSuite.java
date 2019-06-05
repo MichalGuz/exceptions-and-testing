@@ -1,4 +1,4 @@
-import member.Member;
+import com.testing.member.Member;
 import org.junit.*;
 
 public class PlatformTestSuite {

@@ -1,4 +1,4 @@
-package member;
+package com.testing.member;
 
 public class Member {
     public String memberName;
