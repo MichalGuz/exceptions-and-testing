@@ -9,7 +9,9 @@ public class OddNumbersExterminator {
     public ArrayList exterminate(ArrayList<Integer> numbers){
         Random generator = new Random();
         int a = generator.nextInt(100);
-
+        for(int i = 0; i < 50; i++){
+            numbers.size(a);
+        }
         return evenNumbers;
     }
 }
