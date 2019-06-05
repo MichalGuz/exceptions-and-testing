@@ -4,4 +4,8 @@ public class CollectionTestSuite {
     public void testOddNumbersExterminatorEmptzList(){
 
     }
+
+    public void testOddNumbersExterminatorNormalList(){
+
+    }
 }

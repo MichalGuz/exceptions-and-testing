@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/testing/src/main/java/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/testing/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/src/main/java/member/TestingMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/testing/member/TestingMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/src/test/java/PlatformTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/test/java/PlatformTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/collection/OddNumbersExterminator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -68,6 +67,15 @@
                 <element signature="e#184#185#0" expanded="true" />
                 <element signature="e#218#219#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -97,6 +105,7 @@
         <option value="$PROJECT_DIR$/testing/src/main/java/collection/OddNumbersExterminator.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/calculator/collection/OddNumbersExterminator.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/collection/OddNumbersExterminator.java" />
+        <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java" />
       </list>
     </option>
   </component>
@@ -174,6 +183,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
@@ -441,6 +459,13 @@
             <element signature="e#184#185#0" expanded="true" />
             <element signature="e#218#219#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
