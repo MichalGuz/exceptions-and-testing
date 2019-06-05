@@ -1,4 +1,4 @@
-package calculator;
+package com.testing.calculator;
 
 public class Calculator {
     private int A;

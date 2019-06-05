@@ -1,4 +1,4 @@
-package calculator;
+package com.testing.calculator;
 
 public class TestingCalculator {
     public static void main(String[] args) {
