@@ -6,8 +6,9 @@ public class CollectionTestSuite {
     public void testOddNumbersExterminatorEmptzList(){
         // given
         ArrayList<Integer> list = new ArrayList<>();
-        ApplicationCollection process = new ApplicationCollection();
+        OddNumbersExterminator process = new OddNumbersExterminator();
 
+        // when
 
     }
 
