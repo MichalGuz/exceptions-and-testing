@@ -5,7 +5,6 @@ import java.util.Random;
 
 public class OddNumbersExterminator {
 
-//    ArrayList<Integer> numbers = new ArrayList<>();
     ArrayList<Integer> evenNumbers = new ArrayList<>();
     public ArrayList exterminate(ArrayList<Integer> numbers){
 
