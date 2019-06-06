@@ -1,7 +1,6 @@
 package com.testing.collection;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 public class OddNumbersExterminator {
 
@@ -12,12 +11,14 @@ public class OddNumbersExterminator {
         for(int j = 0; j < numbers.size(); j++){
             x = numbers.get(j);
             if(numbers.get(j) % 2 == 0){
+                System.out.println(x);
                 evenNumbers.add(x);
             }
-            System.out.println(evenNumbers.size());
+
         }
+        System.out.println("The size of list evenNumbers is: "+ evenNumbers.size());
         return evenNumbers;
-//        System.out.println(evenNumbers.size());
+
     }
 
 //    public void check(){
