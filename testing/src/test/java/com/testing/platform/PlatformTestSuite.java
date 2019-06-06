@@ -1,3 +1,5 @@
+package com.testing.platform;
+
 import com.testing.member.Member;
 import org.junit.*;
 
