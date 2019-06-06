@@ -1,10 +1,14 @@
 package com.testing.collection;
 
+import java.util.ArrayList;
+
 public class CollectionTestSuite {
     public void testOddNumbersExterminatorEmptzList(){
-        // when
+        // given
+        ArrayList<Integer> list = new ArrayList<>();
+        ApplicationCollection process = new ApplicationCollection();
 
-        //
+
     }
 
     public void testOddNumbersExterminatorNormalList(){

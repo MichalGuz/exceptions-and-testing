@@ -14,9 +14,8 @@ public class OddNumbersExterminator {
                 System.out.println(x);
                 evenNumbers.add(x);
             }
-
         }
-        System.out.println("The size of list evenNumbers is: "+ evenNumbers.size());
+        System.out.println("The size of list evenNumbers is: " + evenNumbers.size());
         return evenNumbers;
     }
 }
