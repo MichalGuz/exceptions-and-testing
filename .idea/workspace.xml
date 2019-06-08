@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="" />
+    <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,6 +31,7 @@
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/platform/PlatformTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +63,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state>
+              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -366,6 +372,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27427185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -477,15 +484,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/collection/Numbers.java" />
-    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/platform/PlatformTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/collection/OddNumbersExterminator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -503,10 +501,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/platform/PlatformTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
