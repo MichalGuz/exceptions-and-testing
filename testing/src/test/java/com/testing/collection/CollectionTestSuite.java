@@ -22,6 +22,7 @@ public class CollectionTestSuite {
     @Test
     public void testOddNumbersExterminatorNormalList(){
         // given
+        ArrayList<Integer> listOfNumbers = new ArrayList<>();
 
         // when
 
