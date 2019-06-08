@@ -34,6 +34,7 @@ public class CollectionTestSuite {
         ArrayList<Integer> evenNumbers = exterminator.exterminate(listOfNumbers);
 
         // then
+        Assert.assertEquals(5, evenNumbers.size());
 
     }
 }
