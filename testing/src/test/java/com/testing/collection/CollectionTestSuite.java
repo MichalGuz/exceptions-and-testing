@@ -18,7 +18,12 @@ public class CollectionTestSuite {
 
     }
 
-//    public void testOddNumbersExterminatorNormalList(){
+    public void testOddNumbersExterminatorNormalList(){
+        // given
 
-//    }
+        // when
+
+        // then
+
+    }
 }
