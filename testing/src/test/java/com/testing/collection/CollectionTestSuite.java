@@ -31,7 +31,7 @@ public class CollectionTestSuite {
         OddNumbersExterminator exterminator = new OddNumbersExterminator();
 
         // when
-
+        ArrayList<Integer> evenNumbers = exterminator.exterminate(listOfNumbers);
 
         // then
 
