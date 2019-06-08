@@ -9,9 +9,10 @@ public class CollectionTestSuite {
         OddNumbersExterminator process = new OddNumbersExterminator();
 
         // when
-        process.exterminate(list);
+        ArrayList<Integer> listOfEven = process.exterminate(list);
 
         // then
+
     }
 
     public void testOddNumbersExterminatorNormalList(){
