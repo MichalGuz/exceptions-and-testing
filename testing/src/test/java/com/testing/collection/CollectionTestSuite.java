@@ -24,6 +24,10 @@ public class CollectionTestSuite {
         // given
         ArrayList<Integer> listOfNumbers = new ArrayList<>();
         Integer number = 1;
+        for(int i = 0; i < 10; i++){
+            listOfNumbers.add(number);
+            number++;
+        }
 
         // when
 
