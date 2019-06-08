@@ -28,8 +28,10 @@ public class CollectionTestSuite {
             listOfNumbers.add(number);
             number++;
         }
+        OddNumbersExterminator exterminator = new OddNumbersExterminator();
 
         // when
+
 
         // then
 
