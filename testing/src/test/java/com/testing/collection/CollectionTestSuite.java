@@ -4,7 +4,7 @@ import org.junit.*;
 import java.util.ArrayList;
 
 public class CollectionTestSuite {
-    @Test
+//    @Test
     public void testOddNumbersExterminatorEmptyList(){
         // given
         ArrayList<Integer> list = new ArrayList<>();
