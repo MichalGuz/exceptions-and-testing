@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.collection.CollectionTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-08T21:39:53" hostname="Dell-Komputer" time="0.037">
+<testsuite name="com.testing.collection.CollectionTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-08T21:49:01" hostname="Dell-Komputer" time="0.029">
   <properties/>
-  <testcase name="testOddNumbersExterminatorEmptyList" classname="com.testing.collection.CollectionTestSuite" time="0.037"/>
-  <system-out><![CDATA[The size of list evenNumbers is: 0
+  <testcase name="testOddNumbersExterminatorNormalList" classname="com.testing.collection.CollectionTestSuite" time="0.029"/>
+  <system-out><![CDATA[2
+4
+6
+8
+10
+The size of list evenNumbers is: 5
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

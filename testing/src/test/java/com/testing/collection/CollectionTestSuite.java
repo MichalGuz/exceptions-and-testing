@@ -2,6 +2,7 @@ package com.testing.collection;
 
 import org.junit.*;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class CollectionTestSuite {
     @Test
@@ -18,6 +19,7 @@ public class CollectionTestSuite {
 
     }
 
+    @Test
     public void testOddNumbersExterminatorNormalList(){
         // given
 
