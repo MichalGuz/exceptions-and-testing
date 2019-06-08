@@ -23,6 +23,7 @@ public class CollectionTestSuite {
     public void testOddNumbersExterminatorNormalList(){
         // given
         ArrayList<Integer> listOfNumbers = new ArrayList<>();
+        int number = 1;
 
         // when
 
