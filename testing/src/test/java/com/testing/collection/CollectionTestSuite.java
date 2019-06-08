@@ -1,9 +1,10 @@
 package com.testing.collection;
 
-import org.junit.Assert;
+import org.junit.*;
 import java.util.ArrayList;
 
 public class CollectionTestSuite {
+    @Test
     public void testOddNumbersExterminatorEmptyList(){
         // given
         ArrayList<Integer> list = new ArrayList<>();
