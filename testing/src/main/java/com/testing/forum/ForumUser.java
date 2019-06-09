@@ -41,4 +41,12 @@ public class ForumUser {
         //return true temporarily
         return true;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getRealName() {
+        return realName;
+    }
 }
