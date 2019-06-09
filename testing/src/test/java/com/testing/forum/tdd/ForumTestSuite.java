@@ -2,6 +2,7 @@ package com.testing.forum.tdd;
 
 import com.testing.forum.ForumUser;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 
@@ -32,5 +33,6 @@ public class ForumTestSuite {
         forumUser.addPost("adam", "hi girls");
 
         // then
+        Assert.assertEquals(1, forumUser.getPostQuantity());
     }
 }
