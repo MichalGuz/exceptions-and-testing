@@ -26,9 +26,10 @@ public class ForumTestSuite {
 
     public void testAddPost(){
         // given
-        ForumUser forumUser =new ForumUser("adam", "Adam Johnson");
+        ForumUser forumUser = new ForumUser("adam", "Adam Johnson");
 
         // when
+        forumUser.addPost("adam", "hi girls");
 
         // then
     }
