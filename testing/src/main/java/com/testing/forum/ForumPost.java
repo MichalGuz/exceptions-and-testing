@@ -8,4 +8,12 @@ public class ForumPost {
         this.postBody = postBody;
         this.author = author;
     }
+
+    public String getPostBody() {
+        return postBody;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
 }
