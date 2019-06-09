@@ -22,4 +22,12 @@ public class ForumTestSuite {
         testCounter++;
         System.out.println("Preparing to execute test #" + testCounter);
     }
+
+    public void testAddPost(){
+        // given
+
+        // when
+
+        // then
+    }
 }
