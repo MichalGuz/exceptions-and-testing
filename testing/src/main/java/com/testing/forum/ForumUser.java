@@ -31,4 +31,9 @@ public class ForumUser {
         // returning null means that the operation was unsuccessful
         return null;
     }
+
+    public ForumComment getComment(int commentNumber){
+        // returning null means that the operation was unsuccessful
+        return null;
+    }
 }
