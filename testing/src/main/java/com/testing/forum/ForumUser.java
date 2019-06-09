@@ -10,4 +10,8 @@ public class ForumUser {
         //  real name of the user
         this.realName = realName;
     }
+
+    public void addPost(String author, String postBody){
+        // do nothing
+    }
 }
