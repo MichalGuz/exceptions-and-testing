@@ -14,4 +14,8 @@ public class ForumUser {
     public void addPost(String author, String postBody){
         // do nothing
     }
+
+    public void addComment(ForumPost thePost, String author, String commentBody){
+        // do nothing
+    }
 }
