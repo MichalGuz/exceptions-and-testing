@@ -22,4 +22,8 @@ public class ForumUser {
     public int getPostQuantity(){
         return 10;
     }
+
+    public int getCommentsQuantity(){
+        return 10;
+    }
 }
