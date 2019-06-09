@@ -36,4 +36,9 @@ public class ForumUser {
         // returning null means that the operation was unsuccessful
         return null;
     }
+
+    public boolean removePost(ForumPost thePost){
+        //return true temporarily
+        return true;
+    }
 }
