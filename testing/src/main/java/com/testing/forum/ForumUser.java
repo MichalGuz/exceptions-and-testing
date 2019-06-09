@@ -18,4 +18,8 @@ public class ForumUser {
     public void addComment(ForumPost thePost, String author, String commentBody){
         // do nothing
     }
+
+    public int getPostQuantity(){
+        return 10;
+    }
 }
