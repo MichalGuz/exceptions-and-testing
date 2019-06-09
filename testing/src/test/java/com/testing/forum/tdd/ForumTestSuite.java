@@ -1,5 +1,6 @@
 package com.testing.forum.tdd;
 
+import com.testing.forum.ForumUser;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -25,6 +26,7 @@ public class ForumTestSuite {
 
     public void testAddPost(){
         // given
+        ForumUser forumUser =new ForumUser("adam", "Adam Johnson");
 
         // when
 
