@@ -1,5 +1,7 @@
 package com.testing.forum;
 
+import java.util.Objects;
+
 public class ForumPost {
     public String postBody;
     public String author;
@@ -15,5 +17,14 @@ public class ForumPost {
 
     public String getAuthor() {
         return author;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ForumPost forumPost = (ForumPost) o;
+        return getPostBody().equals(forumPost.getPostBody()) &&
+                getAuthor().equals(forumPost.getAuthor());
     }
 }
