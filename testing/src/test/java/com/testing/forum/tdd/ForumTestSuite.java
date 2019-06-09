@@ -1,6 +1,7 @@
 package com.testing.forum.tdd;
 
 import org.junit.AfterClass;
+import org.junit.Before;
 import org.junit.BeforeClass;
 
 public class ForumTestSuite {
@@ -14,5 +15,11 @@ public class ForumTestSuite {
     @AfterClass
     public static void afterAllTests(){
         System.out.println("All tests are finished");
+    }
+
+    @Before
+    public void beforeEveryTest(){
+        testCounter++;
+        System.out.println("Preparing to execute test #" + testCounter);
     }
 }
