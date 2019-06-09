@@ -34,4 +34,9 @@ public class ForumComment {
                 getCommentBody().equals(that.getCommentBody()) &&
                 getAuthor().equals(that.getAuthor());
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getForumPost(), getCommentBody(), getAuthor());
+    }
 }
