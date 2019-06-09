@@ -26,4 +26,9 @@ public class ForumUser {
     public int getCommentsQuantity(){
         return 10;
     }
+
+    public ForumPost getPost(int postNumber){
+        // returning null means that the operation was unsuccessful
+        return null;
+    }
 }
