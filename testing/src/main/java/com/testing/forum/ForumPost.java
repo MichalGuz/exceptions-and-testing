@@ -27,4 +27,9 @@ public class ForumPost {
         return getPostBody().equals(forumPost.getPostBody()) &&
                 getAuthor().equals(forumPost.getAuthor());
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getPostBody(), getAuthor());
+    }
 }
