@@ -55,5 +55,9 @@ public class ForumTestSuite {
         ForumPost thePost = new ForumPost("hello everybody!!!", "adamN");
         forumUser.addPost(thePost.getAuthor(), thePost.getPostBody());
 
+        // when
+        ForumPost retrievedPost;
+        retrievedPost = forumUser.getPost(0);
+
     }
 }
