@@ -118,5 +118,8 @@ public class ForumTestSuite {
         // when
         boolean result = forumUser.removePost(thePost);
 
+        // then
+        Assert.assertTrue(result);
+
     }
 }
