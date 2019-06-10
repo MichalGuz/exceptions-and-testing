@@ -34,5 +34,12 @@ public class ForumTestSuite {
         Assert.assertEquals(1, forumUser.getPostQuantity());
     }
 
+    @Test
+    public void testAddComment(){
+        // given
 
+        // when
+
+        // then
+    }
 }
