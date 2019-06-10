@@ -1,8 +1,13 @@
 package com.testing.forum;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 public class ForumUser {
     private String name;
     private String realName;
+    private ArrayList<ForumPost> posts = new ArrayList<>();
+    private LinkedList<ForumComment> comments = new LinkedList<>();
 
     public ForumUser(String name, String realName){
         // name visible on forum
