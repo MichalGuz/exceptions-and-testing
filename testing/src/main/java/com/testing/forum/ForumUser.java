@@ -22,7 +22,8 @@ public class ForumUser {
     }
 
     public void addComment(ForumPost thePost, String author, String commentBody){
-        // do nothing
+        ForumComment theComment = new ForumComment(thePost, commentBody, author);
+        comments.add(theComment);
     }
 
     public int getPostQuantity(){
