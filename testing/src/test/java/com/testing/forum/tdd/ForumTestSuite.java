@@ -122,4 +122,9 @@ public class ForumTestSuite {
         Assert.assertTrue(result);
         Assert.assertEquals(0, forumUser.getCommentsQuantity());
     }
+
+    @Test
+    public void testRemoveComment(){
+
+    }
 }
