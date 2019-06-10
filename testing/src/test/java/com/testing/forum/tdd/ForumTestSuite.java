@@ -1,5 +1,6 @@
 package com.testing.forum.tdd;
 
+import com.testing.forum.ForumComment;
 import com.testing.forum.ForumPost;
 import com.testing.forum.ForumUser;
 import org.junit.*;
@@ -66,6 +67,10 @@ public class ForumTestSuite {
 
     @Test
     public void testGetComment(){
-
+        // given
+        ForumUser forumUser = new ForumUser("evaS", "Eva Smith");
+        ForumPost thePost = new ForumPost("what's up", "evaS");
+        ForumComment theComment = new ForumComment(thePost, "thanx 4 all likes", "evaS");
+        forumUser.addComment(thePost, theComment.getAuthor(), theComment.getCommentBody());
     }
 }
