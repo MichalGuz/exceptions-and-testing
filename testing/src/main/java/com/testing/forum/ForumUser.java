@@ -42,6 +42,11 @@ public class ForumUser {
         return true;
     }
 
+    public boolean removeComment(ForumComment theComment){
+        // return true temporarily
+        return true;
+    }
+
     public String getName() {
         return name;
     }
