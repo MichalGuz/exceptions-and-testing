@@ -42,7 +42,7 @@ public class ForumTestSuite {
         ForumPost thePost = new ForumPost("hello boys", "eva");
 
         // when
-        forumUser.addComment(thePost, "eva", "I'm only replying to photo posts");
+        forumUser.addComment(thePost, "eva", "I'm only replying to photo posts.");
 
         // then
     }
