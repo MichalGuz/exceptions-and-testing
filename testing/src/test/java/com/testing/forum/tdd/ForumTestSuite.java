@@ -125,6 +125,11 @@ public class ForumTestSuite {
 
     @Test
     public void testRemoveComment(){
+        // given
+        ForumUser forumUser = new ForumUser("evaS", "Eva Smith");
+        ForumPost thePost = new ForumPost("what's up", "evaS");
+        ForumComment theComment = new ForumComment(thePost, "thanx 4 all likes", "evaS");
+        forumUser.addComment(thePost, theComment.getAuthor(), theComment.getCommentBody());
 
     }
 }
