@@ -107,4 +107,9 @@ public class ForumTestSuite {
         Assert.assertFalse(result);
 
     }
+
+    @Test
+    public void testRemovePost(){
+
+    }
 }
