@@ -29,7 +29,7 @@ public class ForumUser {
     }
 
     public int getCommentsQuantity(){
-        return 10;
+        return comments.size();
     }
 
     public ForumPost getPost(int postNumber){
