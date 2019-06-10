@@ -72,5 +72,8 @@ public class ForumTestSuite {
         ForumPost thePost = new ForumPost("what's up", "evaS");
         ForumComment theComment = new ForumComment(thePost, "thanx 4 all likes", "evaS");
         forumUser.addComment(thePost, theComment.getAuthor(), theComment.getCommentBody());
+
+        // when
+        ForumComment retrievedComment = forumUser.getComment(0);
     }
 }
