@@ -78,4 +78,9 @@ public class ForumTestSuite {
         // then
         Assert.assertEquals(theComment, retrievedComment);
     }
+
+    @Test
+    public void testRemovePostNotExisting(){
+
+    }
 }
