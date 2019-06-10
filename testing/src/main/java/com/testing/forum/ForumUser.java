@@ -17,7 +17,8 @@ public class ForumUser {
     }
 
     public void addPost(String author, String postBody){
-        // do nothing
+        ForumPost thePost = new ForumPost(postBody, author);
+        posts.add(thePost);
     }
 
     public void addComment(ForumPost thePost, String author, String commentBody){
