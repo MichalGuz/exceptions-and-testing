@@ -45,5 +45,6 @@ public class ForumTestSuite {
         forumUser.addComment(thePost, "eva", "I'm only replying to photo posts.");
 
         // then
+        Assert.assertEquals(1, forumUser.getCommentsQuantity());
     }
 }
