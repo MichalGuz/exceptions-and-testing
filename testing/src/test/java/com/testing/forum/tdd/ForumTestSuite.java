@@ -1,5 +1,6 @@
 package com.testing.forum.tdd;
 
+import com.testing.forum.ForumPost;
 import com.testing.forum.ForumUser;
 import org.junit.*;
 
@@ -37,6 +38,8 @@ public class ForumTestSuite {
     @Test
     public void testAddComment(){
         // given
+        ForumUser forumUser = new ForumUser("eva", "Eva Parker");
+        ForumPost thePost = new ForumPost("hello boys", "eva");
 
         // when
 
