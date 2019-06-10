@@ -74,5 +74,8 @@ public class ForumTestSuite {
 
         // when
         ForumComment retrievedComment = forumUser.getComment(0);
+
+        // then
+        Assert.assertEquals(theComment, retrievedComment);
     }
 }
