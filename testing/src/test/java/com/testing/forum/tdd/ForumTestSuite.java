@@ -131,5 +131,7 @@ public class ForumTestSuite {
         ForumComment theComment = new ForumComment(thePost, "thanx 4 all likes", "evaS");
         forumUser.addComment(thePost, theComment.getAuthor(), theComment.getCommentBody());
 
+        // when
+        boolean result = forumUser.removeComment(theComment);
     }
 }
