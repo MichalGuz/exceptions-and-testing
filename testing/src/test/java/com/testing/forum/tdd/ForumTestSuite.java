@@ -59,5 +59,8 @@ public class ForumTestSuite {
         ForumPost retrievedPost;
         retrievedPost = forumUser.getPost(0);
 
+        // then
+        Assert.assertEquals(thePost, retrievedPost);
+
     }
 }
