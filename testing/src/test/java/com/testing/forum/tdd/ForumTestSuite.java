@@ -81,6 +81,10 @@ public class ForumTestSuite {
 
     @Test
     public void testRemovePostNotExisting(){
+        // given
+        ForumUser forumUser = new ForumUser("evaS", "Eva Smith");
+        ForumPost thePost = new ForumPost("what's up", "evaS");
+
 
     }
 }
