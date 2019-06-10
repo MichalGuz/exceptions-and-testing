@@ -95,6 +95,10 @@ public class ForumTestSuite {
 
     @Test
     public void testOfRemovingCommentNotExisting(){
+        // given
+        ForumUser forumUser = new ForumUser("adamN", "Adam Novak");
+        ForumPost thePost = new ForumPost("hello everybody!!!", "adamN");
+        ForumComment theComment = new ForumComment(thePost, "hello world!", "adamN");
 
     }
 }
