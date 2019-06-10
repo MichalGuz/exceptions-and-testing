@@ -63,4 +63,9 @@ public class ForumTestSuite {
         Assert.assertEquals(thePost, retrievedPost);
 
     }
+
+    @Test
+    public void testGetComment(){
+
+    }
 }
