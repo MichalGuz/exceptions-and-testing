@@ -115,6 +115,8 @@ public class ForumTestSuite {
         ForumPost thePost = new ForumPost("what's up", "evaS");
         forumUser.addPost(thePost.getAuthor(), thePost.getPostBody());
 
+        // when
+        boolean result = forumUser.removePost(thePost);
 
     }
 }
