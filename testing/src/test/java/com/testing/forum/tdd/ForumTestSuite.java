@@ -50,6 +50,10 @@ public class ForumTestSuite {
 
     @Test
     public void testGetPost(){
+        // given
+        ForumUser forumUser = new ForumUser("adamN", "Adam Novak");
+        ForumPost thePost = new ForumPost("hello everybody!!!", "adamN");
+        forumUser.addPost(thePost.getAuthor(), thePost.getPostBody());
 
     }
 }
