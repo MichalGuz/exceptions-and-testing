@@ -1,10 +1,7 @@
 package com.testing.forum.tdd;
 
 import com.testing.forum.ForumUser;
-import org.junit.AfterClass;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
+import org.junit.*;
 
 public class ForumTestSuite {
     private static int testCounter = 0;
@@ -25,6 +22,7 @@ public class ForumTestSuite {
         System.out.println("Preparing to execute test #" + testCounter);
     }
 
+    @Test
     public void testAddPost(){
         // given
         ForumUser forumUser = new ForumUser("adam", "Adam Johnson");
@@ -35,4 +33,6 @@ public class ForumTestSuite {
         // then
         Assert.assertEquals(1, forumUser.getPostQuantity());
     }
+
+
 }
