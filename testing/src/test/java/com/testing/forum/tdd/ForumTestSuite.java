@@ -85,6 +85,8 @@ public class ForumTestSuite {
         ForumUser forumUser = new ForumUser("evaS", "Eva Smith");
         ForumPost thePost = new ForumPost("what's up", "evaS");
 
+        // when
+        boolean result = forumUser.removePost(thePost);
 
     }
 }
