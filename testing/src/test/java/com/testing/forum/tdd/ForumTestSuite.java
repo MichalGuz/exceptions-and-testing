@@ -47,4 +47,9 @@ public class ForumTestSuite {
         // then
         Assert.assertEquals(1, forumUser.getCommentsQuantity());
     }
+
+    @Test
+    public void testGetPost(){
+
+    }
 }
