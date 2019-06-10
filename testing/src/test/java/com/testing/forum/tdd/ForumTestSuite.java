@@ -100,5 +100,8 @@ public class ForumTestSuite {
         ForumPost thePost = new ForumPost("hello everybody!!!", "adamN");
         ForumComment theComment = new ForumComment(thePost, "hello world!", "adamN");
 
-        }
+        // when
+        boolean result = forumUser.removeComment(theComment);
+
+    }
 }
