@@ -120,6 +120,6 @@ public class ForumTestSuite {
 
         // then
         Assert.assertTrue(result);
-
+        Assert.assertEquals(0, forumUser.getCommentsQuantity());
     }
 }
