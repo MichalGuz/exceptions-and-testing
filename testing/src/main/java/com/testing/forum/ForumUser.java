@@ -56,7 +56,7 @@ public class ForumUser {
             posts.remove(thePost);
             result = true;
         }
-        return result
+        return result;
     }
 
     public boolean removeComment(ForumComment theComment){
