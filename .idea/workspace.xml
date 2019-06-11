@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/testing/src/test/java/com/testing/forum/tdd/ForumTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/forum/tdd/ForumTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/classes/java/main/com/testing/forum/ForumUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/classes/java/main/com/testing/forum/ForumUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.forum.tdd.ForumTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.forum.tdd.ForumTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.forum.tdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.forum.tdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.forum.tdd.ForumTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.forum.tdd.ForumTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,26 +40,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="350">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/tdd/ForumTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="122" column="64" selection-start-line="122" selection-start-column="64" selection-end-line="122" selection-end-column="64" />
+            <state>
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,11 +65,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumPost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -100,12 +105,12 @@
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/Forum.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumPost.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumComment.java" />
-        <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumUser.java" />
         <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/forum/tdd/ForumTestSuite.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumUser.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="31" />
     <option name="width" value="1260" />
     <option name="height" value="425" />
@@ -116,7 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,27 +221,7 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
               <item name="tdd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
@@ -246,7 +231,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ForumTestSuite.testAddPost">
+  <component name="RunManager" selected="Gradle.ForumTestSuite">
     <configuration name="ApplicationCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.testing.collection.ApplicationCollection" />
       <module name="exceptions-and-testing.testing.main" />
@@ -331,12 +316,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ForumTestSuite.testAddPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ForumTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.forum.tdd.ForumTestSuite.testAddPost&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.forum.tdd.ForumTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -351,12 +336,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PlatformTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ForumTestSuite.testAddPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PlatformTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.forum.tdd.ForumTestSuite.testAddPost&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -389,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ForumTestSuite" />
         <item itemvalue="Gradle.ForumTestSuite.testAddPost" />
         <item itemvalue="Gradle.CollectionTestSuite" />
         <item itemvalue="Gradle.CollectionTestSuite.testOddNumbersExterminatorNormalList" />
         <item itemvalue="Application.ApplicationCollection" />
-        <item itemvalue="Gradle.PlatformTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -411,12 +396,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlatformTestSuite - 2019.06.03 at 23h 09m 36s.xml">
-      <configuration name="PlatformTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PlatformTestSuite - 2019.06.03 at 23h 13m 36s.xml">
-      <configuration name="PlatformTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="PlatformTestSuite - 2019.06.03 at 23h 14m 01s.xml">
       <configuration name="PlatformTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -441,11 +420,18 @@
     <history-entry file="ForumTestSuite_testAddPost - 2019.06.10 at 16h 45m 21s.xml">
       <configuration name="ForumTestSuite.testAddPost" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="ForumTestSuite - 2019.06.10 at 20h 35m 21s.xml">
+      <configuration name="ForumTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ForumTestSuite - 2019.06.10 at 20h 46m 25s.xml">
+      <configuration name="ForumTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28883496" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2936893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -591,21 +577,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumComment.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="350">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
             <element signature="e#1048#1049#0" expanded="true" />
             <element signature="e#1075#1076#0" expanded="true" />
             <element signature="e#1110#1111#0" expanded="true" />
@@ -616,13 +597,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/tdd/ForumTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="122" column="64" selection-start-line="122" selection-start-column="64" selection-end-line="122" selection-end-column="64" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumPost.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumComment.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
