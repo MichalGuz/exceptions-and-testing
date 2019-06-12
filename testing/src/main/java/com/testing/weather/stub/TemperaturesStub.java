@@ -5,6 +5,7 @@ import java.util.HashMap;
 public class TemperaturesStub implements Temperatures{
     @Override
     public HashMap<Integer, Double> getTemperatures() {
-        return null;
+        HashMap<Integer, Double> stubResult = new HashMap<Integer, Double>();
+        return  stubResult;
     }
 }
