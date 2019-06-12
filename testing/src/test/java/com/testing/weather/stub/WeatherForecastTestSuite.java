@@ -10,6 +10,7 @@ public class WeatherForecastTestSuite {
         WeatherForecast weatherForecast = new WeatherForecast(temperatures);
 
         // when
+        int quantityOfSensors = weatherForecast.calculateForecast().size();
 
         // then
     }
