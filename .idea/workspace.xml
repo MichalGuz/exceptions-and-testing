@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/src/test/java/com/testing/weather/stub/WeatherForecastTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/weather/stub/WeatherForecastTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/TemperaturesStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/TemperaturesStub.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -64,13 +63,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/weather/stub/WeatherForecastTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/TemperaturesStub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#244#261#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,6 +146,7 @@
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/Temperatures.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/WeatherForecast.java" />
         <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/weather/stub/WeatherForecastTestSuite.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/TemperaturesStub.java" />
       </list>
     </option>
   </component>
@@ -675,6 +687,16 @@
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/TemperaturesStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#244#261#0" expanded="true" />
           </folding>
         </state>
       </provider>
