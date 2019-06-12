@@ -1,4 +1,10 @@
 package com.testing.weather.stub;
 
-public class TemperaturesStub {
+import java.util.HashMap;
+
+public class TemperaturesStub implements Temperatures{
+    @Override
+    public HashMap<Integer, Double> getTemperatures() {
+        return null;
+    }
 }
