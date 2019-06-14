@@ -7,7 +7,7 @@ public class ShapeCollector {
     ArrayList<Shape> shapes = new ArrayList<Shape>();
 
     public void addShape(Shape shape){
-        //do nothing
+        shapes.add(shape);
     }
 
     public boolean removeShape(Shape shape){
