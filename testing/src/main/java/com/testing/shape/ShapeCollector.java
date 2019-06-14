@@ -13,4 +13,8 @@ public class ShapeCollector {
         // return true temporarily
         return true;
     }
+
+    public Shape getShape(Shape shape){
+        return shape;
+    }
 }
