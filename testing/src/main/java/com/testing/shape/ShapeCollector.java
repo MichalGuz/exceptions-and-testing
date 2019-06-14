@@ -8,4 +8,9 @@ public class ShapeCollector {
     public void addShape(Shape shape){
         //do nothing
     }
+
+    public boolean removeShape(Shape shape){
+        // return true temporarily
+        return true;
+    }
 }
