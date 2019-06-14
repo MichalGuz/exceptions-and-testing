@@ -18,6 +18,7 @@ public class Triangle implements Shape {
     }
 
     public double areaOfFigure(){
+        area = (a * h) / 2;
         return area;
     }
 }
