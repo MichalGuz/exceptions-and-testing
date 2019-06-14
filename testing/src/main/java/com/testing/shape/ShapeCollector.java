@@ -20,6 +20,10 @@ public class ShapeCollector {
     }
 
     public Shape getShape(int n){
+        Shape shape = null;
+        if(n >= 0 && n < shapes.size()){
+            shape = shapes.get(n);
+        }
         return shape;
     }
 }
