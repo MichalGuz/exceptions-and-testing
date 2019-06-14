@@ -14,7 +14,7 @@ public class ShapeCollector {
         return true;
     }
 
-    public Shape getShape(Shape shape){
+    public Shape getShape(int n){
         return shape;
     }
 }
