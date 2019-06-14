@@ -16,6 +16,7 @@ class Square implements Shape{
     }
 
     public double areaOfFigure(){
+        area = a * a;
         return area;
     }
 }
