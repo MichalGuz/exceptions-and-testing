@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/ShapeCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/ShapeCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Square.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,7 +29,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/shape/ShapeCollector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -36,6 +38,34 @@
                 <element signature="e#130#137#0" expanded="true" />
                 <element signature="e#349#350#0" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,10 +123,10 @@
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/TemperaturesStub.java" />
         <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/weather/stub/WeatherForecastTestSuite.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Shape.java" />
-        <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Square.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Triangle.java" />
-        <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Circle.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/ShapeCollector.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Square.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Circle.java" />
       </list>
     </option>
   </component>
@@ -406,7 +436,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30825242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -583,19 +612,6 @@
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumComment.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -605,19 +621,6 @@
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#211#212#0" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -667,6 +670,30 @@
             <element signature="e#130#137#0" expanded="true" />
             <element signature="e#349#350#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
