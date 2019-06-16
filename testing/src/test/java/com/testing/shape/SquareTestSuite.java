@@ -27,9 +27,13 @@ public class SquareTestSuite {
         Square bigSquare = new Square("bigSquare", 30.0);
 
         // when
-        Double areaOfSquare = square.areaOfFigure();
-        Double areaOfBigSquare = bigSquare.areaOfFigure();
+        double areaOfSquare = square.areaOfFigure();
+        double areaOfBigSquare = bigSquare.areaOfFigure();
 
         // then
+        Assert.assertTrue(4.0 == areaOfSquare);
+        Assert.assertTrue(900 == areaOfBigSquare);
+        System.out.println("Area of 'square' = " + areaOfSquare);
+        System.out.println("Area of 'bigSquare' = " + areaOfBigSquare);
     }
 }
