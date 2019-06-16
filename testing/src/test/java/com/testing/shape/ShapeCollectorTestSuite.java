@@ -16,4 +16,14 @@ public class ShapeCollectorTestSuite {
         // then
         Assert.assertEquals(1, shapeCollector.shapes.size());
     }
+
+    @Test
+    public void testRemoveShape(){
+        // given
+
+        // when
+
+        // then
+    }
+
 }
