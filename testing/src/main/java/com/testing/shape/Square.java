@@ -5,9 +5,8 @@ class Square implements Shape{
     public double area;
     private double a;
 
-    public Square(String name, double area, double a) {
+    public Square(String name, double a) {
         this.name = name;
-        this.area = area;
         this.a = a;
     }
 
