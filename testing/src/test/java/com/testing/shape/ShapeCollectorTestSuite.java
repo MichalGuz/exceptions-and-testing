@@ -35,4 +35,13 @@ public class ShapeCollectorTestSuite {
         Assert.assertEquals(2, sizeAfterAddingShapes);
         Assert.assertEquals(1, sizeAfterRemovingShape);
     }
+
+    @Test
+    public void testGetShape(){
+        // given
+
+        // when
+
+        // then
+    }
 }
