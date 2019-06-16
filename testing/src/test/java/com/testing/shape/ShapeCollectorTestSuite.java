@@ -23,7 +23,8 @@ public class ShapeCollectorTestSuite {
         Circle circle = new Circle("circle", 4.0);
         Square square = new Square("square", 3);
         ShapeCollector shapeCollector = new ShapeCollector();
-
+        shapeCollector.addShape(square);
+        shapeCollector.addShape(circle);
 
         // when
 
