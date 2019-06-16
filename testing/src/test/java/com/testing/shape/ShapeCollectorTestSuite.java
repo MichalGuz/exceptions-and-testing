@@ -32,6 +32,7 @@ public class ShapeCollectorTestSuite {
         int sizeAfterRemovingShape = shapeCollector.shapes.size();
 
         // then
+        Assert.assertEquals(2, sizeAfterAddingShapes);
+        Assert.assertEquals(1, sizeAfterRemovingShape);
     }
-
 }
