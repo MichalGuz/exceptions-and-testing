@@ -8,5 +8,6 @@ public class SquareTestSuite {
     public void testGetName() {
         // given
         Square square = new Square("square", 2.0);
+        Square bigSquare = new Square("bigSquare", 30.0);
     }
 }
