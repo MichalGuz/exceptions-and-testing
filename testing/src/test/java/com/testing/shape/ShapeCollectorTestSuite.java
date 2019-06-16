@@ -44,7 +44,9 @@ public class ShapeCollectorTestSuite {
         shapeCollector.addShape(circle);
 
         // when
+        Shape retrievedShape = shapeCollector.getShape(0);
 
         // then
+
     }
 }
