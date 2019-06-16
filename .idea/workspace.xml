@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/shape/SquareTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,11 +39,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="248">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/SquareTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -286,19 +295,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ShapeCollectorTestSuite.testGetShape">
+  <component name="RunManager" selected="Gradle.ShapeCollectorTestSuite.testGetName">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShapeCollectorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.forum.tdd.ForumTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -313,12 +322,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShapeCollectorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShapeCollectorTestSuite.testGetName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite.testGetName&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -411,11 +420,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShapeCollectorTestSuite.testGetName" />
         <item itemvalue="Gradle.ShapeCollectorTestSuite.testGetShape" />
         <item itemvalue="Gradle.ShapeCollectorTestSuite.testRemoveShape" />
         <item itemvalue="Gradle.ShapeCollectorTestSuite" />
         <item itemvalue="Gradle.WeatherForecastTestSuite" />
-        <item itemvalue="Gradle.ForumTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -433,12 +442,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectionTestSuite_testOddNumbersExterminatorNormalList - 2019.06.08 at 23h 49m 01s.xml">
-      <configuration name="CollectionTestSuite.testOddNumbersExterminatorNormalList" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CollectionTestSuite - 2019.06.09 at 00h 01m 46s.xml">
-      <configuration name="CollectionTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="ForumTestSuite_testAddPost - 2019.06.10 at 16h 45m 21s.xml">
       <configuration name="ForumTestSuite.testAddPost" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -463,12 +466,18 @@
     <history-entry file="ShapeCollectorTestSuite_testRemoveShape - 2019.06.16 at 21h 19m 42s.xml">
       <configuration name="ShapeCollectorTestSuite.testRemoveShape" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="ShapeCollectorTestSuite_testGetShape - 2019.06.16 at 21h 37m 54s.xml">
+      <configuration name="ShapeCollectorTestSuite.testGetShape" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShapeCollectorTestSuite_testGetName - 2019.06.16 at 21h 43m 34s.xml">
+      <configuration name="ShapeCollectorTestSuite.testGetName" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3131068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3131068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -477,12 +486,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -685,10 +694,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/SquareTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="248">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
