@@ -9,5 +9,9 @@ public class SquareTestSuite {
         // given
         Square square = new Square("square", 2.0);
         Square bigSquare = new Square("bigSquare", 30.0);
+
+        // when
+        String nameOfRetrievedSquare = square.nameOfFigure();
+        String nameOdRetrievedBigSquare = bigSquare.nameOfFigure();
     }
 }
