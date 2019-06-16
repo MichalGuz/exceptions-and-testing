@@ -28,6 +28,8 @@ public class ShapeCollectorTestSuite {
 
         // when
         int sizeAfterAddingShapes = shapeCollector.shapes.size();
+        shapeCollector.removeShape(square);
+        int sizeAfterRemovingShape = shapeCollector.shapes.size();
 
         // then
     }
