@@ -10,12 +10,8 @@ public class Circle implements Shape {
         this.r = r;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public String nameOfFigure(){
-        return getName();
+        return name;
     }
 
     public double areaOfFigure(){
