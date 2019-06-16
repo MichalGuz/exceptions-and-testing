@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class SquareTestSuite {
     @Test
-    public void testGetName() {
+    public void testNameOfFigure() {
         // given
         Square square = new Square("square", 2.0);
         Square bigSquare = new Square("bigSquare", 30.0);
