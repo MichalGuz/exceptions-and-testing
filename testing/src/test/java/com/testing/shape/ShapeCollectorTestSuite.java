@@ -5,6 +5,10 @@ import org.junit.Test;
 public class ShapeCollectorTestSuite {
     @Test
     public void testAddShape(){
+        // given
+        Circle circle = new Circle("circle", )
+        // when
 
+        // then
     }
 }

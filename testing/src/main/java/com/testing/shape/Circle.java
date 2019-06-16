@@ -5,9 +5,8 @@ public class Circle implements Shape {
     public double area;
     private double r;
 
-    public Circle(String name, double area, double r) {
+    public Circle(String name, double r) {
         this.name = name;
-        this.area = area;
         this.r = r;
     }
 
