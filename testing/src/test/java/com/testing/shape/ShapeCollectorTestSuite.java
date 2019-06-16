@@ -20,6 +20,10 @@ public class ShapeCollectorTestSuite {
     @Test
     public void testRemoveShape(){
         // given
+        Circle circle = new Circle("circle", 4.0);
+        Square square = new Square("square", 3);
+        ShapeCollector shapeCollector = new ShapeCollector();
+
 
         // when
 
