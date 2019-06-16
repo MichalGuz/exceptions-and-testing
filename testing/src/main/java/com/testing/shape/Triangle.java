@@ -6,9 +6,8 @@ public class Triangle implements Shape {
     private double a;
     private double h;
 
-    public Triangle(String name, double area, double a, double h) {
+    public Triangle(String name, double a, double h) {
         this.name = name;
-        this.area = area;
         this.a = a;
         this.h = h;
     }
