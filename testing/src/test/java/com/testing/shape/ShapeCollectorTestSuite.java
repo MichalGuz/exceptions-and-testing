@@ -10,6 +10,7 @@ public class ShapeCollectorTestSuite {
         ShapeCollector shapeCollector = new ShapeCollector();
 
         // when
+        shapeCollector.addShape(circle);
 
         // then
     }
