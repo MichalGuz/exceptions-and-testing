@@ -47,6 +47,6 @@ public class ShapeCollectorTestSuite {
         Shape retrievedShape = shapeCollector.getShape(0);
 
         // then
-
+        Assert.assertEquals(circle, retrievedShape);
     }
 }

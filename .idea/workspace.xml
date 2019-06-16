@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+            <state relative-caret-position="333">
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -286,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ShapeCollectorTestSuite.testRemoveShape">
+  <component name="RunManager" selected="Gradle.ShapeCollectorTestSuite.testGetShape">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -313,12 +313,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ForumTestSuite.testAddPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShapeCollectorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.forum.tdd.ForumTestSuite.testAddPost&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -333,12 +333,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShapeCollectorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShapeCollectorTestSuite.testGetShape" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite.testGetShape&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -411,11 +411,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShapeCollectorTestSuite.testGetShape" />
         <item itemvalue="Gradle.ShapeCollectorTestSuite.testRemoveShape" />
         <item itemvalue="Gradle.ShapeCollectorTestSuite" />
         <item itemvalue="Gradle.WeatherForecastTestSuite" />
         <item itemvalue="Gradle.ForumTestSuite" />
-        <item itemvalue="Gradle.ForumTestSuite.testAddPost" />
       </list>
     </recent_temporary>
   </component>
@@ -687,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        <state relative-caret-position="333">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
