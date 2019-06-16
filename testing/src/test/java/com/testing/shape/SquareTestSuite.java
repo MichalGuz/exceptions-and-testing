@@ -27,6 +27,8 @@ public class SquareTestSuite {
         Square bigSquare = new Square("bigSquare", 30.0);
 
         // when
+        Double areaOfSquare = square.areaOfFigure();
+        Double areaOfBigSquare = bigSquare.areaOfFigure();
 
         // then
     }
