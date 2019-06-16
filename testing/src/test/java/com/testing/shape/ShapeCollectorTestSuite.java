@@ -1,5 +1,6 @@
 package com.testing.shape;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class ShapeCollectorTestSuite {
@@ -13,5 +14,6 @@ public class ShapeCollectorTestSuite {
         shapeCollector.addShape(circle);
 
         // then
+        Assert.assertEquals(1, shapeCollector.shapes.size());
     }
 }
