@@ -39,6 +39,9 @@ public class ShapeCollectorTestSuite {
     @Test
     public void testGetShape(){
         // given
+        Circle circle = new Circle("circle", 4.0);
+        ShapeCollector shapeCollector = new ShapeCollector();
+        shapeCollector.addShape(circle);
 
         // when
 
