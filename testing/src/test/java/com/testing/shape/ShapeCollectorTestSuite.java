@@ -27,6 +27,7 @@ public class ShapeCollectorTestSuite {
         shapeCollector.addShape(circle);
 
         // when
+        int sizeAfterAddingShapes = shapeCollector.shapes.size();
 
         // then
     }
