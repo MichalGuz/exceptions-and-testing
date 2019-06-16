@@ -19,4 +19,15 @@ public class SquareTestSuite {
         Assert.assertTrue("bigSquare" == nameOdRetrievedBigSquare);
         Assert.assertFalse("square" == nameOdRetrievedBigSquare);
     }
+
+    @Test
+    public void testAreaOfFigure(){
+        // given
+        Square square = new Square("square", 2.0);
+        Square bigSquare = new Square("bigSquare", 30.0);
+
+        // when
+
+        // then
+    }
 }
