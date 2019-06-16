@@ -13,5 +13,10 @@ public class SquareTestSuite {
         // when
         String nameOfRetrievedSquare = square.nameOfFigure();
         String nameOdRetrievedBigSquare = bigSquare.nameOfFigure();
+
+        // then
+        Assert.assertEquals("square", nameOfRetrievedSquare);
+        Assert.assertTrue("bigSquare" == nameOdRetrievedBigSquare);
+        Assert.assertFalse("square" == nameOdRetrievedBigSquare);
     }
 }
