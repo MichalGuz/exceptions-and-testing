@@ -1,6 +1,8 @@
 package com.testing.weather.mock;
 
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
 import com.testing.weather.stub.Temperatures;
 import com.testing.weather.stub.WeatherForecast;
 import org.junit.Assert;
@@ -18,6 +20,8 @@ public class WeatherForecastTestSuite {
         temperaturesMap.put(1, 25.5);
         temperaturesMap.put(2, 25.5);
         temperaturesMap.put(3, 29.0);
+        when(temperaturesMock.getTemperatures()).thenReturn(temperaturesMap);
+
         WeatherForecast weatherForecast = new WeatherForecast(temperaturesMock);
 
         // when
