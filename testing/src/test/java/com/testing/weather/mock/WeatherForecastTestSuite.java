@@ -10,7 +10,7 @@ public class WeatherForecastTestSuite {
     public void testCalculateForecastwithMock(){
         // given
         Temperatures temperaturesMock = mock(Temperatures.class) ;
-        //WeatherForecast weatherForecast = new WeatherForecast(temperaturesMock);
+        WeatherForecast weatherForecast = new WeatherForecast(temperaturesMock);
 
         // when
 
