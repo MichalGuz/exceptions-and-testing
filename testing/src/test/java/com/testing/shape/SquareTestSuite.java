@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class SquareTestSuite {
+
     @Test
     public void testNameOfFigure() {
         // given
