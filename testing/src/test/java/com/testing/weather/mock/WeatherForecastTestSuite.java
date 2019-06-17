@@ -6,11 +6,18 @@ import com.testing.weather.stub.WeatherForecast;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.HashMap;
+
 public class WeatherForecastTestSuite {
     @Test
     public void testCalculateForecastwithMock(){
         // given
-        Temperatures temperaturesMock = mock(Temperatures.class) ;
+        Temperatures temperaturesMock = mock(Temperatures.class);
+        HashMap<Integer, Double> temperaturesMap = new HashMap<>();
+        temperaturesMap.put(0, 21.0);
+        temperaturesMap.put(1, 25.5);
+        temperaturesMap.put(2, 25.5);
+        temperaturesMap.put(3, 29.0);
         WeatherForecast weatherForecast = new WeatherForecast(temperaturesMock);
 
         // when
