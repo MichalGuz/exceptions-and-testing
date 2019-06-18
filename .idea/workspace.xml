@@ -83,19 +83,7 @@
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/CalculateStatistics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-              <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-              </folding>
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -791,19 +779,7 @@
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/CalculateStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-          </folding>
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>

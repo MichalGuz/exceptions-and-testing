@@ -8,29 +8,44 @@ public class CalculateStatistics {
     double averageCommentsPerUser;
     double averageCommentsPerPost;
 
+    public void calculateAdvStatistics(Statistics statistics){
+        numberOfUsers = statistics.usersNames().size();
 
-    int calculateNumberOfUsers(){
-        return numberOfUsers;
+        numberOfPosts = statistics.postsCount();
+
+        numberOfComments  = statistics.commentsCount();
+
+        averagePostsPerUser = numberOfPosts / numberOfUsers;
+
+        averageCommentsPerUser = numberOfComments / numberOfUsers;
+
+        averageCommentsPerPost = numberOfComments / numberOfPosts;
+
     }
 
-    int calculateNumberOfPosts(){
-        return numberOfPosts;
-    }
 
-    int calculateNumberOfComments(){
-        return numberOfComments;
-    }
-
-    double calculateAveragePostsPerUser(){
-        return averagePostsPerUser;
-    }
-
-    double calculateAverageCommentsPerUser(){
-        return averageCommentsPerUser;
-    }
-
-    double calculateAverageCommentsPerPost(){
-        return averageCommentsPerPost;
-    }
+//    int calculateNumberOfUsers(){
+//        return numberOfUsers;
+//    }
+//
+//    int calculateNumberOfPosts(){
+//        return numberOfPosts;
+//    }
+//
+//    int calculateNumberOfComments(){
+//        return numberOfComments;
+//    }
+//
+//    double calculateAveragePostsPerUser(){
+//        return averagePostsPerUser;
+//    }
+//
+//    double calculateAverageCommentsPerUser(){
+//        return averageCommentsPerUser;
+//    }
+//
+//    double calculateAverageCommentsPerPost(){
+//        return averageCommentsPerPost;
+//    }
 }
 
