@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/collection/CollectionTestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/forum/tdd/ForumTestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/platform/PlatformTestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/shape/ShapeCollectorTestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/shape/SquareTestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/weather/mock/WeatherForecastTestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/weather/stub/WeatherForecastTestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.weather.mock.WeatherForecastTestSuite.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/Statistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
@@ -14,9 +22,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.shape.SquareTestSuite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.shape.SquareTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.weather.mock.WeatherForecastTestSuite.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.shape.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.shape.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.weather.mock.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.shape.SquareTestSuite.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin.idx" afterDir="false" />
