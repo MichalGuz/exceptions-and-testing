@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testing.weather.mock.WeatherForecastTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-17T22:22:57" hostname="Dell-Komputer" time="0.516">
+  <properties/>
+  <testcase name="testCalculateForecastwithMock" classname="com.testing.weather.mock.WeatherForecastTestSuite" time="0.516"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.shape.SquareTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-16T20:11:36" hostname="Dell-Komputer" time="0.045">
-  <properties/>
-  <testcase name="testAreaOfFigure" classname="com.testing.shape.SquareTestSuite" time="0.045"/>
-  <system-out><![CDATA[Area of 'square' = 4.0
-Area of 'bigSquare' = 900.0
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
