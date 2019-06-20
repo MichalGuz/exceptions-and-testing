@@ -3,7 +3,6 @@ package com.testing.forum.statistics;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.net.StandardSocketOptions;
 import java.util.*;
 
 import static org.mockito.Mockito.mock;

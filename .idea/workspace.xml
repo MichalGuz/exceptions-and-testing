@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java" afterDir="false" />
-    </list>
+    <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -84,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="91" column="83" selection-start-line="91" selection-start-column="83" selection-end-line="91" selection-end-column="83" />
+            <state relative-caret-position="350">
+              <caret line="99" column="1" lean-forward="true" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#482#490#0" expanded="true" />
@@ -358,7 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CalculateStatisticsTestSuite.test3OfCalculateAdvStatistics">
+  <component name="RunManager" selected="Gradle.CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -391,6 +389,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite.test0ofCalculateAdvStatistics&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":testing:cleanTest" />
+            <option value=":testing:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -445,26 +463,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WeatherForecastTestSuite.testCalculateForecastwithMock" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.weather.mock.WeatherForecastTestSuite.testCalculateForecastwithMock&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testing:cleanTest" />
-            <option value=":testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -483,11 +481,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite.test3OfCalculateAdvStatistics" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite.test0ofCalculateAdvStatistics" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite.testCalculateAdvStatistics" />
-        <item itemvalue="Gradle.WeatherForecastTestSuite.testCalculateForecastwithMock" />
       </list>
     </recent_temporary>
   </component>
@@ -505,12 +503,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculateStatisticsTestSuite - 2019.06.20 at 19h 54m 53s.xml">
-      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CalculateStatisticsTestSuite - 2019.06.20 at 19h 55m 26s.xml">
-      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="CalculateStatisticsTestSuite - 2019.06.20 at 19h 58m 22s.xml">
       <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -535,9 +527,16 @@
     <history-entry file="CalculateStatisticsTestSuite_test3OfCalculateAdvStatistics - 2019.06.20 at 21h 44m 57s.xml">
       <configuration name="CalculateStatisticsTestSuite.test3OfCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite_test3OfCalculateAdvStatistics - 2019.06.20 at 21h 47m 06s.xml">
+      <configuration name="CalculateStatisticsTestSuite.test3OfCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite_test2OfCalculateAdvStatistics - 2019.06.20 at 21h 48m 06s.xml">
+      <configuration name="CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3341424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -548,12 +547,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -833,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="91" column="83" selection-start-line="91" selection-start-column="83" selection-end-line="91" selection-end-column="83" />
+        <state relative-caret-position="350">
+          <caret line="99" column="1" lean-forward="true" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#482#490#0" expanded="true" />
