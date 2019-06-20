@@ -66,5 +66,8 @@ public class CalculateStatisticsTestSuite {
     @Test
     public void test2OfCalculateAdvStatistics() {
         // given
+        Statistics statisticsMock = mock(Statistics.class);
+        CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
+        when(statisticsMock.postsCount()).thenReturn(0);
        }
 }

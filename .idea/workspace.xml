@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="72" column="15" lean-forward="true" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+            <state relative-caret-position="265">
+              <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#482#490#0" expanded="true" />
@@ -507,9 +507,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculateStatisticsTestSuite - 2019.06.20 at 19h 25m 31s.xml">
-      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="CalculateStatisticsTestSuite - 2019.06.20 at 19h 26m 19s.xml">
       <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -537,10 +534,12 @@
     <history-entry file="CalculateStatisticsTestSuite_test0ofCalculateAdvStatistics - 2019.06.20 at 20h 43m 19s.xml">
       <configuration name="CalculateStatisticsTestSuite.test0ofCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite_test0ofCalculateAdvStatistics - 2019.06.20 at 21h 06m 05s.xml">
+      <configuration name="CalculateStatisticsTestSuite.test0ofCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3341424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -836,8 +835,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="72" column="15" lean-forward="true" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+        <state relative-caret-position="265">
+          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#482#490#0" expanded="true" />
