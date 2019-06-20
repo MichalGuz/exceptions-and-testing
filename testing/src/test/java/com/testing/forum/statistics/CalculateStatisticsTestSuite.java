@@ -1,6 +1,7 @@
 package com.testing.forum.statistics;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.*;
@@ -10,9 +11,12 @@ import static org.mockito.Mockito.when;
 
 public class CalculateStatisticsTestSuite {
 
+    @Before
+    public void beforeEveryTest() {
+    }
 
     @Test
-    public void test0ofCalculateAdvStatistics() {
+    public void test0ofCalculateAdvStatistics(){
         // given
         Statistics statisticsMock = mock(Statistics.class);
         int postsNumber = 0;
