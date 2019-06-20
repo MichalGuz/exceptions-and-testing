@@ -1,0 +1,8 @@
+Test #0 is starting.
+QTest executing the method calculateAdvStatistics when numbers of posts equals 0
+Test #0 is finished.
+
+Test #1 is starting.
+STest executing the method calculateAdvStatistics when number of posts equals 1000
+Test #1 is finished.
+

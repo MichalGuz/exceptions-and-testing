@@ -9,11 +9,13 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 public class CalculateStatisticsTestSuite {
+
+
     @Test
-    public void testCalculateAdvStatistics(){
+    public void test0ofCalculateAdvStatistics(){
         // given
         Statistics statisticsMock = mock(Statistics.class);
-        int postsNumber = 10;
+        int postsNumber = 0;
         int commentsNumber = 10;
         List<String> listOfUsers = new ArrayList<String>();
         String user = "user";
@@ -31,8 +33,6 @@ public class CalculateStatisticsTestSuite {
         calculateStatistics.calculateAdvStatistics(statisticsMock);
 
         // then
-        Assert.assertTrue(10 == calculateStatistics.getNumberOfPosts());
-
+        Assert.assertTrue(0 == calculateStatistics.getNumberOfPosts());
     }
-
 }
