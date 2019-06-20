@@ -39,6 +39,21 @@ public class CalculateStatisticsTestSuite {
     @Test
     public void test1OfCalculateAdvStatistics() {
         // given
+        Statistics statisticsMock = mock(Statistics.class);
+        int postsNumber = 1000;
+        int commentsNumber = 10000;
+        List<String> listOfUsers = new ArrayList<String>();
+        String user = "user";
+        for (int i = 0; i < 100; i++) {
+            user = user + i;
+            listOfUsers.add(user);
+        }
+        when(statisticsMock.postsCount()).thenReturn(postsNumber);
+        when(statisticsMock.commentsCount()).thenReturn(commentsNumber);
+        when(statisticsMock.usersNames()).thenReturn(listOfUsers);
+        CalculateStatistics calculateStatistics = new CalculateStatistics();
 
+        // when
+        calculateStatistics.calculateAdvStatistics(statisticsMock);
     }
 }

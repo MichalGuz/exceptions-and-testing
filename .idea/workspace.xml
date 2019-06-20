@@ -83,11 +83,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            <state relative-caret-position="333">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#482#490#0" expanded="true" />
+                <element signature="e#1430#1438#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,9 +170,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="31" />
+    <option name="x" value="26" />
     <option name="width" value="1260" />
-    <option name="height" value="425" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -831,11 +832,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="333">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#482#490#0" expanded="true" />
+            <element signature="e#1430#1438#0" expanded="true" />
           </folding>
         </state>
       </provider>
