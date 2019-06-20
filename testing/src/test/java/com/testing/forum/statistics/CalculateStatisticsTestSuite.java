@@ -76,4 +76,9 @@ public class CalculateStatisticsTestSuite {
         //
         Assert.assertEquals(0, calculateStatistics.getNumberOfPosts(), 0.001);
        }
+
+    @Test
+    public void test3OfCalculateAdvStatistics() {
+        // given
+    }
 }
