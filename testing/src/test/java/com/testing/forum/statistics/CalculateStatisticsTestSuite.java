@@ -12,14 +12,14 @@ public class CalculateStatisticsTestSuite {
 
 
     @Test
-    public void test0ofCalculateAdvStatistics(){
+    public void test0ofCalculateAdvStatistics() {
         // given
         Statistics statisticsMock = mock(Statistics.class);
         int postsNumber = 0;
         int commentsNumber = 10;
         List<String> listOfUsers = new ArrayList<String>();
         String user = "user";
-        for(int i = 0; i<10; i++){
+        for (int i = 0; i < 10; i++) {
             user = user + i;
             listOfUsers.add(user);
         }
@@ -34,5 +34,11 @@ public class CalculateStatisticsTestSuite {
         // then
         Assert.assertTrue(calculateStatistics.getNumberOfPosts() == 0);
         Assert.assertTrue(calculateStatistics.getNumberOfUsers() == 10);
+    }
+
+    @Test
+    public void test1OfCalculateAdvStatistics() {
+        // given
+
     }
 }
