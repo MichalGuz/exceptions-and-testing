@@ -55,5 +55,11 @@ public class CalculateStatisticsTestSuite {
 
         // when
         calculateStatistics.calculateAdvStatistics(statisticsMock);
+
+        // then
+        Assert.assertTrue(calculateStatistics.getNumberOfPosts()== 1000);
+        Assert.assertTrue(calculateStatistics.getNumberOfUsers() == 100);
+        Assert.assertTrue(calculateStatistics.getNumberOfComments() == 10000);
+        Assert.assertTrue(calculateStatistics.getAverageCommentsPerPost() == 10);
     }
 }
