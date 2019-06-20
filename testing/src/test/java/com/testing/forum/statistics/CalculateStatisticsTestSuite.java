@@ -33,6 +33,7 @@ public class CalculateStatisticsTestSuite {
         calculateStatistics.calculateAdvStatistics(statisticsMock);
 
         // then
-        Assert.assertTrue(0 == calculateStatistics.getNumberOfPosts());
+        Assert.assertTrue(calculateStatistics.getNumberOfPosts() == 0);
+        Assert.assertTrue(calculateStatistics.getNumberOfUsers() == 10);
     }
 }
