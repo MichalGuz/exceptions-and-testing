@@ -3,6 +3,7 @@ package com.testing.forum.statistics;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.net.StandardSocketOptions;
 import java.util.*;
 
 import static org.mockito.Mockito.mock;
@@ -80,5 +81,8 @@ public class CalculateStatisticsTestSuite {
     @Test
     public void test3OfCalculateAdvStatistics() {
         // given
+        Statistics statisticsMock = mock(Statistics.class);
+        CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
+        when(statisticsMock.commentsCount()).thenReturn(1000);
     }
 }
