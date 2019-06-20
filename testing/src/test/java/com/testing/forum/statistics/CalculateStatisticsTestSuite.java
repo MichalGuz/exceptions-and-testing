@@ -13,6 +13,12 @@ public class CalculateStatisticsTestSuite {
 
     @Before
     public void beforeEveryTest() {
+        ArrayList<String> conditions = new ArrayList<>();
+        conditions.add("when number of posts equals 0, number of comments equals 10 and numbers of users equals 10");
+        conditions.add("when number of posts equals 1000, number of comments equals 10000 and numbers of users equals 100");
+        conditions.add("when number of posts equals 0 and we don't know numbers of users and comments");
+        conditions.add("when number of posts equals 1000 and we don't know numbers of users and posts");
+
     }
 
     @Test
