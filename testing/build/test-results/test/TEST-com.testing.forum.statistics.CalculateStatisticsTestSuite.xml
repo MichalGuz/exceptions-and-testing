@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.forum.statistics.CalculateStatisticsTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-20T19:18:49" hostname="Dell-Komputer" time="0.425">
+<testsuite name="com.testing.forum.statistics.CalculateStatisticsTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-20T19:47:05" hostname="Dell-Komputer" time="0.479">
   <properties/>
-  <testcase name="test0ofCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="0.425"/>
+  <testcase name="test3OfCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="0.479"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
