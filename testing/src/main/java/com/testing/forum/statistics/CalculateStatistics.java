@@ -9,6 +9,10 @@ public class CalculateStatistics {
     double averageCommentsPerUser;
     double averageCommentsPerPost;
 
+    public CalculateStatistics(Statistics statistics) {
+        this.statistics = statistics;
+    }
+
     public void calculateAdvStatistics(Statistics statistics){
         numberOfUsers = statistics.usersNames().size();
 

@@ -26,7 +26,7 @@ public class CalculateStatisticsTestSuite {
         when(statisticsMock.postsCount()).thenReturn(postsNumber);
         when(statisticsMock.commentsCount()).thenReturn(commentsNumber);
         when(statisticsMock.usersNames()).thenReturn(listOfUsers);
-        CalculateStatistics calculateStatistics = new CalculateStatistics();
+        CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
 
         // when
         calculateStatistics.calculateAdvStatistics(statisticsMock);
@@ -51,7 +51,7 @@ public class CalculateStatisticsTestSuite {
         when(statisticsMock.postsCount()).thenReturn(postsNumber);
         when(statisticsMock.commentsCount()).thenReturn(commentsNumber);
         when(statisticsMock.usersNames()).thenReturn(listOfUsers);
-        CalculateStatistics calculateStatistics = new CalculateStatistics();
+        CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
 
         // when
         calculateStatistics.calculateAdvStatistics(statisticsMock);
@@ -66,6 +66,5 @@ public class CalculateStatisticsTestSuite {
     @Test
     public void test2OfCalculateAdvStatistics() {
         // given
-
-    }
+       }
 }
