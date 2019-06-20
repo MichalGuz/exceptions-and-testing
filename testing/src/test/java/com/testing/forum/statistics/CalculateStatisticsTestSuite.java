@@ -10,6 +10,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 public class CalculateStatisticsTestSuite {
+    private static int testCounter;
 
     @Before
     public void beforeEveryTest() {
@@ -18,7 +19,8 @@ public class CalculateStatisticsTestSuite {
         conditions.add("when number of posts equals 1000, number of comments equals 10000 and numbers of users equals 100");
         conditions.add("when number of posts equals 0 and we don't know numbers of users and comments");
         conditions.add("when number of posts equals 1000 and we don't know numbers of users and posts");
-
+        System.out.println("Test #" + testCounter + " is starting.");
+        testCounter++;
     }
 
     @Test
