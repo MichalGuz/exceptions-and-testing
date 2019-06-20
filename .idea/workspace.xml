@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.weather.mock.WeatherForecastTestSuite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.weather.mock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.weather.mock.WeatherForecastTestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/results.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/CalculateStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/CalculateStatistics.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,31 +50,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/tdd/ForumTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="77" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/weather/mock/WeatherForecastTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state>
+              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,20 +70,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/CalculateStatistics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="129">
+              <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+              <folding>
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/build.gradle">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+            <state relative-caret-position="358">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#478#486#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,6 +206,7 @@
         <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/weather/mock/WeatherForecastTestSuite.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/Statistics.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/CalculateStatistics.java" />
+        <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java" />
       </list>
     </option>
   </component>
@@ -275,8 +287,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="statistics" type="462c0819:PsiDirectoryNode" />
+              <item name="stub" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
@@ -301,6 +312,27 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="statistics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
@@ -311,6 +343,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
               <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="stub" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
@@ -344,19 +398,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.WeatherForecastTestSuite.testCalculateForecastwithMock">
+  <component name="RunManager" selected="Gradle.CalculateStatisticsTestSuite">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeCollectorTestSuite.testGetName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CalculateStatisticsTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite.testGetName&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -371,12 +425,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShapeCollectorTestSuite.testGetShape" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShapeCollectorTestSuite.testGetName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite.testGetShape&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite.testGetName&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -469,11 +523,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CalculateStatisticsTestSuite" />
         <item itemvalue="Gradle.WeatherForecastTestSuite.testCalculateForecastwithMock" />
         <item itemvalue="Gradle.SquareTestSuite.testAreaOfFigure" />
         <item itemvalue="Gradle.SquareTestSuite.testGetName" />
         <item itemvalue="Gradle.ShapeCollectorTestSuite.testGetName" />
-        <item itemvalue="Gradle.ShapeCollectorTestSuite.testGetShape" />
       </list>
     </recent_temporary>
   </component>
@@ -491,27 +545,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShapeCollectorTestSuite_testRemoveShape - 2019.06.16 at 21h 19m 42s.xml">
-      <configuration name="ShapeCollectorTestSuite.testRemoveShape" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShapeCollectorTestSuite_testGetShape - 2019.06.16 at 21h 37m 54s.xml">
-      <configuration name="ShapeCollectorTestSuite.testGetShape" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShapeCollectorTestSuite_testGetName - 2019.06.16 at 21h 43m 34s.xml">
-      <configuration name="ShapeCollectorTestSuite.testGetName" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SquareTestSuite_testGetName - 2019.06.16 at 21h 54m 23s.xml">
-      <configuration name="SquareTestSuite.testGetName" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SquareTestSuite_testGetName - 2019.06.16 at 21h 58m 16s.xml">
-      <configuration name="SquareTestSuite.testGetName" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SquareTestSuite_testGetName - 2019.06.16 at 21h 58m 15s.xml">
-      <configuration name="SquareTestSuite.testGetName" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SquareTestSuite_testAreaOfFigure - 2019.06.16 at 22h 09m 23s.xml">
-      <configuration name="SquareTestSuite.testAreaOfFigure" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="SquareTestSuite_testAreaOfFigure - 2019.06.16 at 22h 11m 08s.xml">
       <configuration name="SquareTestSuite.testAreaOfFigure" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -521,10 +554,30 @@
     <history-entry file="WeatherForecastTestSuite_testCalculateForecastwithMock - 2019.06.18 at 00h 22m 59s.xml">
       <configuration name="WeatherForecastTestSuite.testCalculateForecastwithMock" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite - 2019.06.18 at 23h 49m 52s.xml">
+      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite - 2019.06.18 at 23h 51m 36s.xml">
+      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite - 2019.06.18 at 23h 51m 37s.xml">
+      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite - 2019.06.18 at 23h 56m 50s.xml">
+      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite - 2019.06.18 at 23h 59m 17s.xml">
+      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite - 2019.06.19 at 00h 08m 25s.xml">
+      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite - 2019.06.19 at 00h 10m 44s.xml">
+      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32847896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -540,7 +593,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -633,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/Temperatures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/TemperaturesStub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -657,26 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/WeatherForecast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/weather/stub/WeatherForecastTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,10 +785,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/WeatherForecast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/Temperatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/weather/stub/WeatherForecastTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/weather/mock/WeatherForecastTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -778,8 +831,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/CalculateStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="129">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#486#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
