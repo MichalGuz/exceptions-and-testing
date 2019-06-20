@@ -20,6 +20,7 @@ public class CalculateStatisticsTestSuite {
         conditions.add("when number of posts equals 0 and we don't know numbers of users and comments");
         conditions.add("when number of posts equals 1000 and we don't know numbers of users and posts");
         System.out.println("Test #" + testCounter + " is starting.");
+        System.out.println("Test executing the method calculateAdvStatistics " + conditions.get(testCounter));
         testCounter++;
     }
 
