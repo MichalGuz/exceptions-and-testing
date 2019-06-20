@@ -1,5 +1,6 @@
 package com.testing.forum.statistics;
 
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,6 +12,7 @@ import static org.mockito.Mockito.when;
 
 public class CalculateStatisticsTestSuite {
     private static int testCounter;
+    private static int finishedTestCounter;
 
     @Before
     public void beforeEveryTest() {
@@ -22,6 +24,11 @@ public class CalculateStatisticsTestSuite {
         System.out.println("Test #" + testCounter + " is starting.");
         System.out.println("Test executing the method calculateAdvStatistics " + conditions.get(testCounter));
         testCounter++;
+    }
+    @After
+    public void afterEveryTest(){
+        System.out.println("Test #" + finishedTestCounter + " is finished.\n");
+        finishedTestCounter++;
     }
 
     @Test
