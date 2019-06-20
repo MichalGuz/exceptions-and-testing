@@ -72,5 +72,8 @@ public class CalculateStatisticsTestSuite {
 
         // when
         calculateStatistics.calculateAdvStatistics(statisticsMock);
+
+        //
+        Assert.assertEquals(0, calculateStatistics.getNumberOfPosts(), 0.001);
        }
 }
