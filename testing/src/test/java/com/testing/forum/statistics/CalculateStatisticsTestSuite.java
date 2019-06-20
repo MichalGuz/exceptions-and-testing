@@ -19,11 +19,10 @@ public class CalculateStatisticsTestSuite {
         int commentsNumber = 10;
         List<String> listOfUsers = new ArrayList<String>();
         String user = "user";
-        for(int i = 10; i<10; i++){
+        for(int i = 0; i<10; i++){
             user = user + i;
             listOfUsers.add(user);
         }
-        int usersNumber = 10;
         when(statisticsMock.postsCount()).thenReturn(postsNumber);
         when(statisticsMock.commentsCount()).thenReturn(commentsNumber);
         when(statisticsMock.usersNames()).thenReturn(listOfUsers);
