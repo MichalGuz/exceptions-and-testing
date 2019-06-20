@@ -84,5 +84,8 @@ public class CalculateStatisticsTestSuite {
         Statistics statisticsMock = mock(Statistics.class);
         CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
         when(statisticsMock.commentsCount()).thenReturn(1000);
+
+        // when
+        calculateStatistics.calculateAdvStatistics(statisticsMock);
     }
 }
