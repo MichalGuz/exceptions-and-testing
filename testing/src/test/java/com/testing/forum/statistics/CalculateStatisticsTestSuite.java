@@ -22,6 +22,7 @@ public class CalculateStatisticsTestSuite {
         conditions.add("when number of posts equals 0 and we don't know numbers of users and comments");
         conditions.add("when number of posts equals 1000 and we don't know numbers of users and comments");
         conditions.add("when number of comments equals 0 and we don't know numbers of users and posts");
+        conditions.add("when number of comments is less than number of posts and we don't know the numbers of users, comments and posts");
         System.out.println("Test #" + testCounter + " is starting.");
         System.out.println("Test executing the method calculateAdvStatistics " + conditions.get(testCounter));
         testCounter++;
@@ -142,6 +143,7 @@ public class CalculateStatisticsTestSuite {
 
     @Test
     public void test5ofCalculateAdvStatistics() {
+        // condition of test is described in collection 'conditions' - index 5
         // given
         Statistics statisticsMock = mock(Statistics.class);
         int numbersOfPosts = statisticsMock.postsCount();
