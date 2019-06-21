@@ -26,14 +26,15 @@ public class CalculateStatisticsTestSuite {
         System.out.println("Test executing the method calculateAdvStatistics " + conditions.get(testCounter));
         testCounter++;
     }
+
     @After
-    public void afterEveryTest(){
+    public void afterEveryTest() {
         System.out.println("Test #" + finishedTestCounter + " is finished.\n");
         finishedTestCounter++;
     }
 
     @Test
-    public void test0ofCalculateAdvStatistics(){
+    public void test0ofCalculateAdvStatistics() {
         // condition of test is described in collection 'conditions' - index 0
         // given
         Statistics statisticsMock = mock(Statistics.class);
@@ -99,9 +100,9 @@ public class CalculateStatisticsTestSuite {
 
         // then
         Assert.assertEquals(0, calculateStatistics.getNumberOfPosts(), 0.001);
-        Assert.assertEquals(0,calculateStatistics.getAveragePostsPerUser(), 0.001);
-        Assert.assertEquals(0,calculateStatistics.getAverageCommentsPerUser(), 0.001);
-        Assert.assertEquals(0,calculateStatistics.getAverageCommentsPerPost(), 0.001);
+        Assert.assertEquals(0, calculateStatistics.getAveragePostsPerUser(), 0.001);
+        Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerUser(), 0.001);
+        Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerPost(), 0.001);
     }
 
     @Test
@@ -117,13 +118,13 @@ public class CalculateStatisticsTestSuite {
 
         // then
         Assert.assertEquals(1000, calculateStatistics.getNumberOfComments(), 0.001);
-        Assert.assertEquals(0,calculateStatistics.getAveragePostsPerUser(), 0.001);
-        Assert.assertEquals(0,calculateStatistics.getAverageCommentsPerUser(), 0.001);
-        Assert.assertEquals(0,calculateStatistics.getAverageCommentsPerPost(), 0.001);
+        Assert.assertEquals(0, calculateStatistics.getAveragePostsPerUser(), 0.001);
+        Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerUser(), 0.001);
+        Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerPost(), 0.001);
     }
 
     @Test
-    public void test4OfCalculateAdvStatistics(){
+    public void test4OfCalculateAdvStatistics() {
         // condition of test is described in collection 'conditions' - index 4
         // given
         Statistics statisticsMock = mock(Statistics.class);
@@ -134,18 +135,22 @@ public class CalculateStatisticsTestSuite {
         calculateStatistics.calculateAdvStatistics(statisticsMock);
 
         // then
-        Assert.assertEquals(0, calculateStatistics.getNumberOfComments(),0.001);
+        Assert.assertEquals(0, calculateStatistics.getNumberOfComments(), 0.001);
         Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerUser(), 0.001);
         Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerPost(), 0.001);
     }
 
     @Test
-    public void test5ofCalculateAdvStatistics(){
+    public void test5ofCalculateAdvStatistics() {
         // given
         Statistics statisticsMock = mock(Statistics.class);
         int numbersOfPosts = statisticsMock.postsCount();
         int numbersOfComments = numbersOfPosts - 1;
         CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
         when(statisticsMock.commentsCount()).thenReturn(numbersOfComments);
+
+        // when
+        calculateStatistics.calculateAdvStatistics(statisticsMock);
+
     }
 }
