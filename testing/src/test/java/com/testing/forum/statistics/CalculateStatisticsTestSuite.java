@@ -138,4 +138,9 @@ public class CalculateStatisticsTestSuite {
         Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerUser(), 0.001);
         Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerPost(), 0.001);
     }
+
+    @Test
+    public void test5ofCalculateAdvStatistics(){
+        // given
+    }
 }
