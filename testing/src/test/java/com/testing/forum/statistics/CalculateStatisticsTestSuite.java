@@ -125,6 +125,8 @@ public class CalculateStatisticsTestSuite {
         when(statisticsMock.commentsCount()).thenReturn(0);
 
         // when
+        calculateStatistics.calculateAdvStatistics(statisticsMock);
+
 
     }
 }
