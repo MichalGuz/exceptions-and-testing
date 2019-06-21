@@ -120,6 +120,11 @@ public class CalculateStatisticsTestSuite {
     @Test
     public void test4OfCalculateAdvStatistics(){
         // given
+        Statistics statisticsMock = mock(Statistics.class);
+        CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
+        when(statisticsMock.commentsCount()).thenReturn(0);
+
+
 
     }
 }
