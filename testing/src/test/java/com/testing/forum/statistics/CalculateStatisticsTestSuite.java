@@ -152,5 +152,10 @@ public class CalculateStatisticsTestSuite {
         // when
         calculateStatistics.calculateAdvStatistics(statisticsMock);
 
+        // then
+        Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerPost(), 0.001);
+        Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerUser(), 0.001);
+        Assert.assertEquals(0, calculateStatistics.getAveragePostsPerUser(), 0.001);
+
     }
 }
