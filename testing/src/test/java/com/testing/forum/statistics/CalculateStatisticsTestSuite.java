@@ -34,6 +34,7 @@ public class CalculateStatisticsTestSuite {
 
     @Test
     public void test0ofCalculateAdvStatistics(){
+        // condition of test is described in collection 'conditions' - index 0
         // given
         Statistics statisticsMock = mock(Statistics.class);
         int postsNumber = 0;
@@ -59,6 +60,7 @@ public class CalculateStatisticsTestSuite {
 
     @Test
     public void test1OfCalculateAdvStatistics() {
+        // condition of test is described in collection 'conditions' - index 1
         // given
         Statistics statisticsMock = mock(Statistics.class);
         int postsNumber = 1000;
@@ -86,6 +88,7 @@ public class CalculateStatisticsTestSuite {
 
     @Test
     public void test2OfCalculateAdvStatistics() {
+        // condition of test is described in collection 'conditions' - index 2
         // given
         Statistics statisticsMock = mock(Statistics.class);
         CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
@@ -103,6 +106,7 @@ public class CalculateStatisticsTestSuite {
 
     @Test
     public void test3OfCalculateAdvStatistics() {
+        // condition of test is described in collection 'conditions' - index 3
         // given
         Statistics statisticsMock = mock(Statistics.class);
         CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
@@ -120,6 +124,7 @@ public class CalculateStatisticsTestSuite {
 
     @Test
     public void test4OfCalculateAdvStatistics(){
+        // condition of test is described in collection 'conditions' - index 4
         // given
         Statistics statisticsMock = mock(Statistics.class);
         CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
