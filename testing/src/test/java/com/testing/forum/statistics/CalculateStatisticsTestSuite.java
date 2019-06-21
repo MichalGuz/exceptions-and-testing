@@ -142,5 +142,10 @@ public class CalculateStatisticsTestSuite {
     @Test
     public void test5ofCalculateAdvStatistics(){
         // given
+        Statistics statisticsMock = mock(Statistics.class);
+        int numbersOfPosts = statisticsMock.postsCount();
+        int numbersOfComments = numbersOfPosts - 1;
+        CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
+        when(statisticsMock.commentsCount()).thenReturn(numbersOfComments);
     }
 }
