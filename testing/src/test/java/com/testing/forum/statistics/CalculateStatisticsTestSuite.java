@@ -124,7 +124,7 @@ public class CalculateStatisticsTestSuite {
         CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
         when(statisticsMock.commentsCount()).thenReturn(0);
 
-
+        // when
 
     }
 }
