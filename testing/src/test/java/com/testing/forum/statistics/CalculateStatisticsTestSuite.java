@@ -188,7 +188,12 @@ public class CalculateStatisticsTestSuite {
         // given
         Statistics statisticsMock = mock(Statistics.class);
         CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
-        when(statisticsMock.usersNames().size()).thenReturn(0);
+        ArrayList<String> users = new ArrayList<>();
+        for(int k = 0; k < 99; k++){
+            String userName = "user" + k;
+            users.add(userName);
+        }
+        when(statisticsMock.usersNames()).thenReturn(users);
 
         // when
         calculateStatistics.calculateAdvStatistics(statisticsMock);

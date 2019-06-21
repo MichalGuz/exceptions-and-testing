@@ -11,9 +11,30 @@
 Test #2 is finished.
 
 Test #3 is starting.
-€Test executing the method calculateAdvStatistics when number of posts equals 1000 and we don't know numbers of users and posts
+ƒTest executing the method calculateAdvStatistics when number of posts equals 1000 and we don't know numbers of users and comments
 Test #3 is finished.
 
 Test #4 is starting.
+€Test executing the method calculateAdvStatistics when number of comments equals 0 and we don't know numbers of users and posts
 Test #4 is finished.
 
+Test #5 is starting.
+¢Test executing the method calculateAdvStatistics when number of comments is less than number of posts and we don't know the numbers of users, comments and posts
+Test #5 is finished.
+
+Test #6 is starting.
+¢Test executing the method calculateAdvStatistics when number of comments is more than number of posts and we don't know the numbers of users, comments and posts
+Test #6 is finished.
+
+	Test #7 is starting.
+	€Test executing the method calculateAdvStatistics when number of users equals 0 and we don't know numbers of posts and comments
+	Test #7 is finished.
+	
+
+Test #8 is starting.
+
+‚Test executing the method calculateAdvStatistics when number of users equals 100 and we don't know numbers of posts and comments
+
+Test #8 is finished.
+
+
