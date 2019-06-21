@@ -1,0 +1,16 @@
+Test #0 is starting.
+çTest executing the method calculateAdvStatistics when number of posts equals 0, number of comments equals 10 and numbers of users equals 10
+Test #0 is finished.
+
+Test #1 is starting.
+îTest executing the method calculateAdvStatistics when number of posts equals 1000, number of comments equals 10000 and numbers of users equals 100
+Test #1 is finished.
+
+Test #2 is starting.
+ÄTest executing the method calculateAdvStatistics when number of posts equals 0 and we don't know numbers of users and comments
+Test #2 is finished.
+
+Test #3 is starting.
+ÄTest executing the method calculateAdvStatistics when number of posts equals 1000 and we don't know numbers of users and posts
+Test #3 is finished.
+
