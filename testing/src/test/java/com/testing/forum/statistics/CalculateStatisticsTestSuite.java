@@ -24,6 +24,7 @@ public class CalculateStatisticsTestSuite {
         conditions.add("when number of comments equals 0 and we don't know numbers of users and posts");
         conditions.add("when number of comments is less than number of posts and we don't know the numbers of users, comments and posts");
         conditions.add("when number of comments is more than number of posts and we don't know the numbers of users, comments and posts");
+        conditions.add("when number of users equals 0 and we don't know numbers of posts and comments");
         System.out.println("Test #" + testCounter + " is starting.");
         System.out.println("Test executing the method calculateAdvStatistics " + conditions.get(testCounter));
         testCounter++;
@@ -179,4 +180,22 @@ public class CalculateStatisticsTestSuite {
         Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerUser(), 0.001);
         Assert.assertEquals(0, calculateStatistics.getAveragePostsPerUser(), 0.001);
     }
+
+    @Test
+    public void test7OfCalculateAdvStatistics() {
+        // condition of test is described in collection 'conditions' - index 7
+        // given
+        Statistics statisticsMock = mock(Statistics.class);
+        CalculateStatistics calculateStatistics = new CalculateStatistics(statisticsMock);
+        when(statisticsMock.usersNames().size()).thenReturn(0);
+
+        // when
+        calculateStatistics.calculateAdvStatistics(statisticsMock);
+
+        // then
+        Assert.assertEquals(0, calculateStatistics.getNumberOfComments(), 0.001);
+        Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerUser(), 0.001);
+        Assert.assertEquals(0, calculateStatistics.getAverageCommentsPerPost(), 0.001);
+    }
+
 }
