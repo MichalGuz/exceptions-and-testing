@@ -70,10 +70,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="126" column="15" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="15" />
+            <state relative-caret-position="242">
+              <caret line="120" column="48" lean-forward="true" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1542#1550#0" expanded="true" />
+                <element signature="e#2502#2510#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -429,12 +431,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CalculateStatisticsTestSuite.testCalculateAdvStatistics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CalculateStatisticsTestSuite.test4OfCalculateAdvStatistics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite.testCalculateAdvStatistics&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite.test4OfCalculateAdvStatistics&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -468,10 +470,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.CalculateStatisticsTestSuite" />
+        <item itemvalue="Gradle.CalculateStatisticsTestSuite.test4OfCalculateAdvStatistics" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite.test3OfCalculateAdvStatistics" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite.test0ofCalculateAdvStatistics" />
-        <item itemvalue="Gradle.CalculateStatisticsTestSuite.testCalculateAdvStatistics" />
       </list>
     </recent_temporary>
   </component>
@@ -489,9 +491,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculateStatisticsTestSuite_test0ofCalculateAdvStatistics - 2019.06.20 at 20h 10m 57s.xml">
-      <configuration name="CalculateStatisticsTestSuite.test0ofCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="CalculateStatisticsTestSuite_test0ofCalculateAdvStatistics - 2019.06.20 at 20h 43m 19s.xml">
       <configuration name="CalculateStatisticsTestSuite.test0ofCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -518,6 +517,9 @@
     </history-entry>
     <history-entry file="CalculateStatisticsTestSuite - 2019.06.21 at 00h 14m 00s.xml">
       <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CalculateStatisticsTestSuite_test4OfCalculateAdvStatistics - 2019.06.21 at 22h 35m 05s.xml">
+      <configuration name="CalculateStatisticsTestSuite.test4OfCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -803,10 +805,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="126" column="15" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="15" />
+        <state relative-caret-position="242">
+          <caret line="120" column="48" lean-forward="true" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1542#1550#0" expanded="true" />
+            <element signature="e#2502#2510#0" expanded="true" />
           </folding>
         </state>
       </provider>
