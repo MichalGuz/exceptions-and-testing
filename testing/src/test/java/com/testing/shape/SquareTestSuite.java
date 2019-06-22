@@ -19,7 +19,7 @@ public class SquareTestSuite {
     @Before
     public void afterEveryTest(){
         testCounter++;
-        System.out.println("The tests number " + testCounter + "is executing");
+        System.out.println("The tests number " + testCounter + " is executing");
     }
 
     @Test

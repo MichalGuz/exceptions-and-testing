@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.forum.statistics.CalculateStatisticsTestSuite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.forum.statistics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.forum.statistics.CalculateStatisticsTestSuite.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/src/test/java/com/testing/shape/SquareTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/shape/SquareTestSuite.java" afterDir="false" />
     </list>
@@ -39,24 +42,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/weather/mock/WeatherForecastTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/Statistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/CalculateStatistics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -71,7 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="350">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/SquareTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="119">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#244#245#0" expanded="true" />
@@ -103,16 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -187,8 +168,8 @@
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/Statistics.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/CalculateStatistics.java" />
         <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java" />
-        <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/shape/SquareTestSuite.java" />
         <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java" />
+        <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/shape/SquareTestSuite.java" />
       </list>
     </option>
   </component>
@@ -401,7 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CalculateStatisticsTestSuite">
+  <component name="RunManager" selected="Gradle.ShapeCollectorTestSuite">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -414,26 +395,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite&quot; --scan" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testing:cleanTest" />
-            <option value=":testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CalculateStatisticsTestSuite.test0ofCalculateAdvStatistics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite.test0ofCalculateAdvStatistics&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -508,6 +469,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ShapeCollectorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":testing:cleanTest" />
+            <option value=":testing:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -526,11 +507,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShapeCollectorTestSuite" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite.test4OfCalculateAdvStatistics" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite.test3OfCalculateAdvStatistics" />
-        <item itemvalue="Gradle.CalculateStatisticsTestSuite.test0ofCalculateAdvStatistics" />
       </list>
     </recent_temporary>
   </component>
@@ -548,9 +529,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculateStatisticsTestSuite_test3OfCalculateAdvStatistics - 2019.06.20 at 21h 47m 06s.xml">
-      <configuration name="CalculateStatisticsTestSuite.test3OfCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="CalculateStatisticsTestSuite_test2OfCalculateAdvStatistics - 2019.06.20 at 21h 48m 06s.xml">
       <configuration name="CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -577,6 +555,9 @@
     </history-entry>
     <history-entry file="CalculateStatisticsTestSuite - 2019.06.21 at 23h 45m 24s.xml">
       <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShapeCollectorTestSuite - 2019.06.22 at 21h 16m 17s.xml">
+      <configuration name="ShapeCollectorTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -692,15 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/platform/PlatformTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/TemperaturesStub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -808,20 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/weather/mock/WeatherForecastTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -852,16 +810,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/tdd/ForumTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/weather/mock/WeatherForecastTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/statistics/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/platform/PlatformTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -878,27 +844,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/SquareTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="350">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/tdd/ForumTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/ShapeCollectorTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/shape/SquareTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
           </folding>
         </state>
       </provider>
