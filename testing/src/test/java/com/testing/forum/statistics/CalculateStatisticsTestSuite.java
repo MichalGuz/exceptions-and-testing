@@ -1,9 +1,6 @@
 package com.testing.forum.statistics;
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import java.util.*;
 
@@ -35,6 +32,11 @@ public class CalculateStatisticsTestSuite {
     public void afterEveryTest() {
         System.out.println("Test #" + finishedTestCounter + " is finished.\n");
         finishedTestCounter++;
+    }
+
+    @BeforeClass
+    public static void beforeAllTests(){
+        System.out.println("Tests for method of class CalculateStatistics are starting");
     }
 
     @Test
