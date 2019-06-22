@@ -1,5 +1,7 @@
 package com.testing.library;
 
+import java.util.Objects;
+
 public class Book {
     String title;
     String author;
@@ -23,5 +25,18 @@ public class Book {
         return yearOfRelease;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Book book = (Book) o;
+        return getYearOfRelease() == book.getYearOfRelease() &&
+                Objects.equals(getTitle(), book.getTitle()) &&
+                Objects.equals(getAuthor(), book.getAuthor());
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(getTitle(), getAuthor(), getYearOfRelease());
+    }
 }
