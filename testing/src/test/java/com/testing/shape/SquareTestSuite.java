@@ -1,11 +1,10 @@
 package com.testing.shape;
 
-import org.junit.AfterClass;
-import org.junit.Assert;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
 public class SquareTestSuite {
+
+    private static int testCounter = 0;
 
     @BeforeClass
     public void beforeAllTests(){
@@ -16,6 +15,13 @@ public class SquareTestSuite {
     public void afterAllTests(){
         System.out.println("The tests of methods from class Square are finished");
     }
+
+    @Before
+    public void afterEveryTest(){
+        testCounter++;
+        System.out.println("The tests number " + testCounter + "is executing");
+    }
+
 
     @Test
     public void testNameOfFigure() {
