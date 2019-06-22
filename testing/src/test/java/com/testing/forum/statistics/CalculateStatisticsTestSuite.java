@@ -39,6 +39,11 @@ public class CalculateStatisticsTestSuite {
         System.out.println("Tests for method of class CalculateStatistics are starting.");
     }
 
+    @AfterClass
+    public static void afterAllTests(){
+        System.out.println("Tests of method counting statistics of Forum are finished.");
+    }
+
     @Test
     public void test0ofCalculateAdvStatistics() {
         // condition of test is described in collection 'conditions' - index 0
