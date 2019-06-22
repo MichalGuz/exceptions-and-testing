@@ -23,6 +23,8 @@ public class SquareTestSuite {
     }
 
 
+
+
     @Test
     public void testNameOfFigure() {
         // given
