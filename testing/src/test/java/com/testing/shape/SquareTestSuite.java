@@ -1,5 +1,6 @@
 package com.testing.shape;
 
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -9,6 +10,11 @@ public class SquareTestSuite {
     @BeforeClass
     public void beforeAllTests(){
         System.out.println("Beginning the tests of methods from class Square");
+    }
+
+    @AfterClass
+    public void afterAllTests(){
+        System.out.println("The tests of methods from class Square are finished");
     }
 
     @Test
