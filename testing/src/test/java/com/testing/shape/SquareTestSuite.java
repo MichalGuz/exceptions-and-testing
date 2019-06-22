@@ -1,9 +1,15 @@
 package com.testing.shape;
 
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class SquareTestSuite {
+
+    @BeforeClass
+    public void beforeAllTests(){
+        System.out.println("Beginning the tests of methods from class Square");
+    }
 
     @Test
     public void testNameOfFigure() {
