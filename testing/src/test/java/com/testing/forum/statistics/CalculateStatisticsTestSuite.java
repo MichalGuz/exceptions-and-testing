@@ -36,7 +36,7 @@ public class CalculateStatisticsTestSuite {
 
     @BeforeClass
     public static void beforeAllTests(){
-        System.out.println("Tests for method of class CalculateStatistics are starting");
+        System.out.println("Tests for method of class CalculateStatistics are starting.");
     }
 
     @Test
