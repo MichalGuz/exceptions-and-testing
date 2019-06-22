@@ -7,12 +7,12 @@ public class SquareTestSuite {
     private static int testCounter = 0;
 
     @BeforeClass
-    public void beforeAllTests(){
+    public static void beforeAllTests(){
         System.out.println("Beginning the tests of methods from class Square");
     }
 
     @AfterClass
-    public void afterAllTests(){
+    public static void afterAllTests(){
         System.out.println("The tests of methods from class Square are finished");
     }
 
@@ -21,9 +21,6 @@ public class SquareTestSuite {
         testCounter++;
         System.out.println("The tests number " + testCounter + "is executing");
     }
-
-
-
 
     @Test
     public void testNameOfFigure() {

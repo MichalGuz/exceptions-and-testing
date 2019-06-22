@@ -7,12 +7,12 @@ public class ShapeCollectorTestSuite {
     private static int testCounter = 0;
 
     @BeforeClass
-    public void beforeAllTests(){
+    public static void beforeAllTests(){
         System.out.println("Beginning the tests of methods from class ShapeCollector");
     }
 
     @AfterClass
-    public void afterAllTests(){
+    public static void afterAllTests(){
         System.out.println("The tests of methods from class ShapeCollector are finished");
     }
 
