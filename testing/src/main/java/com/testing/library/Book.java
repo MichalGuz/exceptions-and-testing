@@ -37,7 +37,10 @@ public class Book {
 
     @Override
     public int hashCode() {
-        return Objects.hash(getTitle(), getAuthor(), getYearOfRelease());
+        int result = title.hashCode();
+        result = 31 * result + author.hashCode();
+        result = 31 * result + yearOfRelease;
+        return result;
     }
 
     @Override
