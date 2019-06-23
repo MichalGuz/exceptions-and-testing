@@ -49,6 +49,6 @@ public class Book {
                 "title='" + title + '\'' +
                 ", author='" + author + '\'' +
                 ", yearOfRelease=" + yearOfRelease +
-                '}';
+                "}";
     }
 }
