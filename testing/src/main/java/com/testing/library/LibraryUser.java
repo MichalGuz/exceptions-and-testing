@@ -22,4 +22,13 @@ public class LibraryUser {
     public String getPeselId() {
         return peselId;
     }
+
+    @Override
+    public String toString() {
+        return "LibraryUser{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", peselId='" + peselId + '\'' +
+                '}';
+    }
 }
