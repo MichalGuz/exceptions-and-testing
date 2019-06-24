@@ -1,6 +1,10 @@
 package com.testing.library;
 
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 
@@ -13,7 +17,12 @@ public class LibraryTestSuite {
         // given
         LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
         Library library = new Library(libraryDatabaseMock);
-
+        List<Book> list = new ArrayList<>();
+        Book book1 = new Book("title #1", "author #1", 2012);
+        Book book2 = new Book("title #2", "author #2", 2010);
+        Book book3 = new Book("title #3", "author #3", 2015);
+        Book book4 = new Book("title #4", "author #4", 2000);
+        Book book5 = new Book("title #5", "author #5", 2002);
         assertTrue(false);
     }
 
