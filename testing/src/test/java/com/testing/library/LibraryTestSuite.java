@@ -14,6 +14,15 @@ import static org.mockito.Mockito.when;
 
 public class LibraryTestSuite {
 
+    private List<Book> generateListOfNBooks(int booksQuantity){
+        List<Book> resultList = new ArrayList<>();
+        for(int i = 1; i <= booksQuantity; i++){
+            Book theBook = new Book("Title " + i, "Author " + i, 1970 + i);
+            resultList.add(theBook);
+        }
+        return resultList;
+    }
+
     // test if method returns correctly the list of books which met the condition
     @Test
     public void testListOfBooksWithConditionReturnList(){
@@ -43,6 +52,8 @@ public class LibraryTestSuite {
     // test if method returned an empty list when condition was met by more than 20 books
     @Test
     public void testListOfBooksWithConditionMoreThan20(){
+        // given
+
         assertTrue(false);
     }
 
