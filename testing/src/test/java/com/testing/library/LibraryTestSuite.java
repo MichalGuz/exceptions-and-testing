@@ -61,6 +61,11 @@ public class LibraryTestSuite {
         when(libraryDatabaseMock.listBooksWithCondition("ZeroBooks")).thenReturn(resultListOf0Books);
         when(libraryDatabaseMock.listBooksWithCondition("ThirtyBooks")).thenReturn(resultListOf30Books);
 
+        // when
+        List<Book> theListOfBooks0 = library.listOfBooksWithCondition("ZeroBooks");
+        List<Book> theListOfBooks15 = library.listOfBooksWithCondition("Any title");
+        List<Book> theListOfBooks30 = library.listOfBooksWithCondition("ThirtyBooks");
+
         assertTrue(false);
     }
 
