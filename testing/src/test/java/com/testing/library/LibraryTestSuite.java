@@ -7,13 +7,13 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.mockito.Matchers.same;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 
 public class LibraryTestSuite {
 
+    // the method of automatically generating a list of books
     private List<Book> generateListOfNBooks(int booksQuantity){
         List<Book> resultList = new ArrayList<>();
         for(int i = 1; i <= booksQuantity; i++){
