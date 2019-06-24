@@ -7,8 +7,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 
 public class LibraryTestSuite {
@@ -53,6 +52,14 @@ public class LibraryTestSuite {
     @Test
     public void testListOfBooksWithConditionMoreThan20(){
         // given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
+        Library library = new Library(libraryDatabaseMock);
+        List<Book> resultListOf0Books = new ArrayList<>();
+        List<Book> resultListOf15Books = generateListOfNBooks(15);
+        List<Book> resultListOf30Books = generateListOfNBooks(30);
+        when(libraryDatabaseMock.listBooksWithCondition(anyString())).thenReturn(resultListOf15Books);
+        when(libraryDatabaseMock.listBooksWithCondition("ZeroBooks")).thenReturn(resultListOf0Books);
+        when(libraryDatabaseMock.listBooksWithCondition("ThirtyBooks")).thenReturn(resultListOf30Books);
 
         assertTrue(false);
     }
