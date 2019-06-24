@@ -23,6 +23,12 @@ public class LibraryTestSuite {
         Book book3 = new Book("title #3", "author #3", 2015);
         Book book4 = new Book("title #4", "author #4", 2000);
         Book book5 = new Book("title #5", "author #5", 2002);
+        list.add(book1);
+        list.add(book2);
+        list.add(book3);
+        list.add(book4);
+        list.add(book5);
+
         assertTrue(false);
     }
 
