@@ -5,7 +5,9 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.Matchers.same;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -29,13 +31,13 @@ public class LibraryTestSuite {
         list.add(book3);
         list.add(book4);
         list.add(book5);
-        when(libraryDatabaseMock.listBooksWithCondition("title")).thenReturn(list);
+        when(libraryDatabaseMock.listBooksWithCondition("title #")).thenReturn(list);
 
         // when
-        List<Book> theListOfBooks = library.listOfBooksWithCondition("title");
+        List<Book> theListOfBooks = library.listOfBooksWithCondition("title #");
 
         // then
-       // assertTrue(false);
+        assertEquals(5, theListOfBooks.size());
     }
 
     // test if method returned an empty list when condition was met by more than 20 books

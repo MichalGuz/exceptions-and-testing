@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="" />
+    <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/testing/src/main/java/com/testing/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/testing/library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/src/test/java/com/testing/library/LibraryTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/test/java/com/testing/library/LibraryTestSuite.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="231">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
@@ -73,12 +76,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/library/LibraryTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
                 <element signature="e#330#331#0" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
@@ -266,6 +267,27 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="statistics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.LibraryTestSuite">
+  <component name="RunManager" selected="Gradle.LibraryTestSuite.testListOfBooksWithConditionReturnList">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -313,26 +335,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite&quot; --scan" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testing:cleanTest" />
-            <option value=":testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -387,6 +389,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.library.LibraryTestSuite.testListOfBooksWithConditionReturnList&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":testing:cleanTest" />
+            <option value=":testing:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ShapeCollectorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -425,11 +447,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryTestSuite.testListOfBooksWithConditionReturnList" />
         <item itemvalue="Gradle.LibraryTestSuite" />
         <item itemvalue="Gradle.ShapeCollectorTestSuite" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite" />
         <item itemvalue="Gradle.CalculateStatisticsTestSuite.test4OfCalculateAdvStatistics" />
-        <item itemvalue="Gradle.CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics" />
       </list>
     </recent_temporary>
   </component>
@@ -447,39 +469,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculateStatisticsTestSuite_test2OfCalculateAdvStatistics - 2019.06.21 at 00h 11m 43s.xml">
-      <configuration name="CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
+    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 27m 47s.xml">
+      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CalculateStatisticsTestSuite_test2OfCalculateAdvStatistics - 2019.06.21 at 00h 12m 15s.xml">
-      <configuration name="CalculateStatisticsTestSuite.test2OfCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
+    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 29m 58s.xml">
+      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CalculateStatisticsTestSuite - 2019.06.21 at 00h 14m 00s.xml">
-      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 30m 53s.xml">
+      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CalculateStatisticsTestSuite_test4OfCalculateAdvStatistics - 2019.06.21 at 22h 35m 05s.xml">
-      <configuration name="CalculateStatisticsTestSuite.test4OfCalculateAdvStatistics" configurationId="GradleRunConfiguration" />
+    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 33m 45s.xml">
+      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CalculateStatisticsTestSuite - 2019.06.21 at 22h 40m 38s.xml">
-      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 35m 03s.xml">
+      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CalculateStatisticsTestSuite - 2019.06.21 at 23h 40m 32s.xml">
-      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 36m 27s.xml">
+      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CalculateStatisticsTestSuite - 2019.06.21 at 23h 40m 33s.xml">
-      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 39m 07s.xml">
+      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CalculateStatisticsTestSuite - 2019.06.21 at 23h 45m 24s.xml">
-      <configuration name="CalculateStatisticsTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 42m 40s.xml">
+      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeCollectorTestSuite - 2019.06.22 at 21h 16m 17s.xml">
-      <configuration name="ShapeCollectorTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 43m 50s.xml">
+      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeCollectorTestSuite - 2019.06.22 at 21h 24m 57s.xml">
-      <configuration name="ShapeCollectorTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 44m 29s.xml">
+      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.36245954" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.36245954" />
@@ -718,16 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/weather/mock/WeatherForecastTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -792,16 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="43" column="89" lean-forward="true" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -816,6 +819,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/forum/statistics/CalculateStatisticsTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/LibraryDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -825,8 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="231">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
@@ -837,12 +857,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/library/LibraryTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
             <element signature="e#302#303#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />

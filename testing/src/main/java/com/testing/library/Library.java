@@ -12,7 +12,7 @@ public class Library {
 
     public List<Book> listOfBooksWithCondition(String titleFragment){
         List<Book> bookList = new ArrayList<>();
-        Book book = new Book("The book title", "The book author", 2010);
+        Book book = new Book("The book", "The book author", 2010);
         bookList.add(book);
 
         // temporary return list of one book
