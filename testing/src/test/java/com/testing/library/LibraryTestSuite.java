@@ -7,6 +7,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 
 public class LibraryTestSuite {
@@ -28,8 +29,13 @@ public class LibraryTestSuite {
         list.add(book3);
         list.add(book4);
         list.add(book5);
+        when(libraryDatabaseMock.listBooksWithCondition("title")).thenReturn(list);
 
-        assertTrue(false);
+        // when
+        List<Book> theListOfBooks = library.listOfBooksWithCondition("title");
+
+        // then
+       // assertTrue(false);
     }
 
     // test if method returned an empty list when condition was met by more than 20 books
