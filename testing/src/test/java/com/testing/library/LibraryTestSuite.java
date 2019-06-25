@@ -79,6 +79,7 @@ public class LibraryTestSuite {
         LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
         Library library = new Library(libraryDatabaseMock);
         List<Book> resultListOf10Books = generateListOfNBooks(10);
+        when(libraryDatabaseMock.listBooksWithCondition(anyString())).thenReturn(resultListOf10Books);
 
 
         assertTrue(false);
