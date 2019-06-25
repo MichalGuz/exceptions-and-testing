@@ -66,7 +66,10 @@ public class LibraryTestSuite {
         List<Book> theListOfBooks15 = library.listOfBooksWithCondition("Any title");
         List<Book> theListOfBooks30 = library.listOfBooksWithCondition("ThirtyBooks");
 
-        assertTrue(false);
+        // then
+        assertEquals(0, theListOfBooks0.size());
+        assertEquals(15, theListOfBooks15.size());
+        assertEquals(30, theListOfBooks30.size());
     }
 
     // test if method returned an empty list when the condition (fragment of title) is shorter than 3 letters
