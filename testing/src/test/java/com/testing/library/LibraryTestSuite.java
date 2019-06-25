@@ -75,6 +75,12 @@ public class LibraryTestSuite {
     // test if method returned an empty list when the condition (fragment of title) is shorter than 3 letters
     @Test
     public void testListOfBooksWithConditionLessThan3(){
+        // given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
+        Library library = new Library(libraryDatabaseMock);
+        List<Book> resultListOf10Books = generateListOfNBooks(10);
+
+
         assertTrue(false);
     }
 
