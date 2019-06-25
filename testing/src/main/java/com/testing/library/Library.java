@@ -12,12 +12,10 @@ public class Library {
 
     public List<Book> listOfBooksWithCondition(String titleFragment){
         List<Book> bookList = new ArrayList<>();
-        Book book = new Book("The book", "The book author", 2010);
-        bookList.add(book);
-
-        // temporary return list of one book
+        if (titleFragment.length() < 3) return bookList;
+        List<Book> resultList = libraryDatabase.listBooksWithCondition(titleFragment);
+        if (resultList.size() > 20) return bookList;
+        bookList = resultList;
         return bookList;
     }
-
-
 }
