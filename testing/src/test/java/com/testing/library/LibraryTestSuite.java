@@ -81,8 +81,11 @@ public class LibraryTestSuite {
         List<Book> resultListOf10Books = generateListOfNBooks(10);
         when(libraryDatabaseMock.listBooksWithCondition(anyString())).thenReturn(resultListOf10Books);
 
+        // when
+        List<Book> theListOf10Books = library.listOfBooksWithCondition("The");
 
-        assertTrue(false);
+        // then
+
     }
 
 }
