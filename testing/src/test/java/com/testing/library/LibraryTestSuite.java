@@ -85,6 +85,8 @@ public class LibraryTestSuite {
         List<Book> theListOf10Books = library.listOfBooksWithCondition("The");
 
         // then
+        assertEquals(0, theListOf10Books.size());
+
 
     }
 
