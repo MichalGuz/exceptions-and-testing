@@ -96,6 +96,10 @@ public class LibraryTestSuite {
         LibraryUser libraryUser = new LibraryUser("Name", "Surname", "11129456789");
         List<Book> listOfBooks = new ArrayList<>();
         when(libraryDatabaseMock.listBooksInHandsOf(libraryUser)).thenReturn(listOfBooks);
+
+
+        // when
+        List<Book> rentedBooks = library.listBooksInHandsOf(libraryUser);
     }
 
 }
