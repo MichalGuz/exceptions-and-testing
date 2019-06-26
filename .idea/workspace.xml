@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="" />
+    <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/classes/java/main/com/testing/library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/classes/java/main/com/testing/library/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/library/LibraryTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/library/LibraryTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.library.LibraryTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.library.LibraryTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.library.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.library.LibraryTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.library.LibraryTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/binary/results.bin" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -40,18 +67,14 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/LibraryUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="731">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -59,10 +82,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="272">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/library/LibraryTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="234">
+              <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/LibraryDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -168,6 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -289,7 +315,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,52 +338,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.LibraryTestSuite">
+  <component name="RunManager" selected="Gradle.LibraryTestSuite.testListBooksInHandsOf">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="CalculateStatisticsTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite&quot; --scan" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testing:cleanTest" />
-            <option value=":testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CalculateStatisticsTestSuite.test4OfCalculateAdvStatistics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.forum.statistics.CalculateStatisticsTestSuite.test4OfCalculateAdvStatistics&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testing:cleanTest" />
-            <option value=":testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="LibraryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -366,6 +351,46 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.testing.library.LibraryTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":testing:cleanTest" />
+            <option value=":testing:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTestSuite.testListBooksInHandsOf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.library.LibraryTestSuite.testListBooksInHandsOf&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":testing:cleanTest" />
+            <option value=":testing:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTestSuite.testListBooksInHandsOfSize0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.testing.library.LibraryTestSuite.testListBooksInHandsOfSize0&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -438,11 +463,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryTestSuite.testListBooksInHandsOf" />
+        <item itemvalue="Gradle.LibraryTestSuite.testListBooksInHandsOfSize0" />
         <item itemvalue="Gradle.LibraryTestSuite" />
         <item itemvalue="Gradle.LibraryTestSuite.testListOfBooksWithConditionReturnList" />
         <item itemvalue="Gradle.ShapeCollectorTestSuite" />
-        <item itemvalue="Gradle.CalculateStatisticsTestSuite" />
-        <item itemvalue="Gradle.CalculateStatisticsTestSuite.test4OfCalculateAdvStatistics" />
       </list>
     </recent_temporary>
   </component>
@@ -460,42 +485,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 27m 47s.xml">
-      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 29m 58s.xml">
-      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 30m 53s.xml">
-      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 33m 45s.xml">
-      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 35m 03s.xml">
-      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 36m 27s.xml">
-      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 39m 07s.xml">
-      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 42m 40s.xml">
-      <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 43m 50s.xml">
       <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="LibraryTestSuite_testListOfBooksWithConditionReturnList - 2019.06.24 at 21h 44m 29s.xml">
       <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="LibraryTestSuite - 2019.06.25 at 20h 13m 25s.xml">
+      <configuration name="LibraryTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibraryTestSuite - 2019.06.25 at 20h 22m 15s.xml">
+      <configuration name="LibraryTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibraryTestSuite - 2019.06.25 at 20h 25m 15s.xml">
+      <configuration name="LibraryTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibraryTestSuite_testListBooksInHandsOfSize0 - 2019.06.25 at 20h 40m 22s.xml">
+      <configuration name="LibraryTestSuite.testListBooksInHandsOfSize0" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibraryTestSuite_testListBooksInHandsOf - 2019.06.25 at 20h 55m 12s.xml">
+      <configuration name="LibraryTestSuite.testListBooksInHandsOf" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibraryTestSuite_testListBooksInHandsOf - 2019.06.25 at 20h 55m 11s.xml">
+      <configuration name="LibraryTestSuite.testListBooksInHandsOf" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibraryTestSuite_testListBooksInHandsOf - 2019.06.25 at 20h 56m 23s.xml">
+      <configuration name="LibraryTestSuite.testListBooksInHandsOf" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibraryTestSuite_testListBooksInHandsOf - 2019.06.25 at 21h 00m 07s.xml">
+      <configuration name="LibraryTestSuite.testListBooksInHandsOf" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.36812297" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.37459546" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.36245954" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,12 +528,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5023148" side_tool="true" weight="0.36245954" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -814,40 +838,38 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/LibraryUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="731">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="272">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/library/LibraryDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/test/java/com/testing/library/LibraryTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="234">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
