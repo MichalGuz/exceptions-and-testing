@@ -109,7 +109,8 @@ public class LibraryTestSuite {
         List<Book> rentedBooks5 = library.listBooksInHandsOf(libraryUser3);
 
         // then
-        assertEquals(0, rentedBooks.size());
+        assertEquals(0, rentedBooks0.size());
+        assertEquals(1, rentedBooks1.size());
+        assertEquals(5, rentedBooks5.size());
     }
-
 }
