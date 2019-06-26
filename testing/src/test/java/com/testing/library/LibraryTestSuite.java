@@ -91,6 +91,11 @@ public class LibraryTestSuite {
     @Test
     public void testListBooksInHandsOfSize0() {
         // given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
+        Library library = new Library(libraryDatabaseMock);
+        LibraryUser libraryUser = new LibraryUser("Name", "Surname", "11129456789");
+        List<Book> listOfBooks = new ArrayList<>();
+        when(libraryDatabaseMock.listBooksInHandsOf(libraryUser)).thenReturn(listOfBooks);
     }
 
 }
