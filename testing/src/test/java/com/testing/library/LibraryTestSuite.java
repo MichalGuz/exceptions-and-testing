@@ -104,7 +104,9 @@ public class LibraryTestSuite {
         when(libraryDatabaseMock.listBooksInHandsOf(libraryUser3)).thenReturn(listOfBooks5);
 
         // when
-        List<Book> rentedBooks = library.listBooksInHandsOf(libraryUser);
+        List<Book> rentedBooks0 = library.listBooksInHandsOf(libraryUser1);
+        List<Book> rentedBooks1 = library.listBooksInHandsOf(libraryUser2);
+        List<Book> rentedBooks5 = library.listBooksInHandsOf(libraryUser3);
 
         // then
         assertEquals(0, rentedBooks.size());
