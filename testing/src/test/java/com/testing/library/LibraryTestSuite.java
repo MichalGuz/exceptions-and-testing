@@ -100,6 +100,9 @@ public class LibraryTestSuite {
 
         // when
         List<Book> rentedBooks = library.listBooksInHandsOf(libraryUser);
+
+        // then
+        assertEquals(0, rentedBooks.size());
     }
 
 }
