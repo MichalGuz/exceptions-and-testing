@@ -88,5 +88,9 @@ public class LibraryTestSuite {
         verify(libraryDatabaseMock, times(0)).listBooksWithCondition(anyString());
     }
 
+    @Test
+    public void testListBooksInHandsOfSize0() {
+        // given
+    }
 
 }
