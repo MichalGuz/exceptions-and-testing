@@ -93,10 +93,15 @@ public class LibraryTestSuite {
         // given
         LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
         Library library = new Library(libraryDatabaseMock);
-        LibraryUser libraryUser = new LibraryUser("Name", "Surname", "11129456789");
-        List<Book> listOfBooks = new ArrayList<>();
-        when(libraryDatabaseMock.listBooksInHandsOf(libraryUser)).thenReturn(listOfBooks);
-
+        LibraryUser libraryUser1 = new LibraryUser("Name1", "Surname1", "01129456789");
+        LibraryUser libraryUser2 = new LibraryUser("Name2", "Surname2", "02129456789");
+        LibraryUser libraryUser3 = new LibraryUser("Name3", "Surname3", "03129456789");
+        List<Book> listOfBooks0 = new ArrayList<>();
+        List<Book> listOfBooks1 = generateListOfNBooks(1);
+        List<Book> listOfBooks5 = generateListOfNBooks(5);
+        when(libraryDatabaseMock.listBooksInHandsOf(libraryUser1)).thenReturn(listOfBooks0);
+        when(libraryDatabaseMock.listBooksInHandsOf(libraryUser2)).thenReturn(listOfBooks1);
+        when(libraryDatabaseMock.listBooksInHandsOf(libraryUser3)).thenReturn(listOfBooks5);
 
         // when
         List<Book> rentedBooks = library.listBooksInHandsOf(libraryUser);
