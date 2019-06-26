@@ -19,12 +19,10 @@ public class Library {
         return bookList;
     }
 
-    public List<Book> listBooksInHandsOf(LibraryUser libraryUser){
-        List<Book> bookList = new ArrayList<>();
-        Book temporaryBook = new Book("temporary", "nobody", 2000);
-        bookList.add(temporaryBook);
-
-        // temporarily return list of one book
-        return bookList;
+    public List<Book> listBooksInHandsOf(LibraryUser libraryUser) {
+        public List<Book> listBooksInHandsOf (LibraryUser libraryUser){
+            List<Book> bookList = libraryDatabase.listBooksInHandsOf(libraryUser);
+            return bookList;
+        }
     }
 }
