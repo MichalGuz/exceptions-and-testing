@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'exceptions-and-testing'
+group 'exception-and-testing'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
