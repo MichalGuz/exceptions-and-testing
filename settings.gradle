@@ -1,3 +1,4 @@
 rootProject.name = 'exception-and-testing'
 include 'testing'
+include 'exception'
 

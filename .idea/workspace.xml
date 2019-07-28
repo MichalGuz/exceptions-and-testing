@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="" />
+    <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exception-and-testing-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.collection.CollectionTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.forum.statistics.CalculateStatisticsTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.forum.tdd.ForumTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.platform.PlatformTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.shape.ShapeCollectorTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.shape.SquareTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.weather.mock.WeatherForecastTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.weather.stub.WeatherForecastTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.collection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.forum.statistics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.forum.tdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.platform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.shape.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.weather.mock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.weather.stub.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.collection.CollectionTestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.forum.statistics.CalculateStatisticsTestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.forum.tdd.ForumTestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.platform.PlatformTestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.shape.ShapeCollectorTestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.shape.SquareTestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.weather.mock.WeatherForecastTestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.weather.stub.WeatherForecastTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/library/LibraryTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/classes/java/test/com/testing/library/LibraryTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/libs/testing-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/libs/testing-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.library.LibraryTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/classes/com.testing.library.LibraryTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.library.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/reports/tests/test/packages/com.testing.library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.library.LibraryTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/TEST-com.testing.library.LibraryTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/testing/build/test-results/test/binary/results.bin" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -37,7 +83,7 @@
     <favorites_list name="exceptions-and-testing" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,17 +172,33 @@
             <path>
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
@@ -145,6 +206,28 @@
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
@@ -154,6 +237,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -177,186 +261,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="Gradle.LibraryTestSuite.testListBooksInHandsOf">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.library.LibraryTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testing:cleanTest" />
-            <option value=":testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LibraryTestSuite.testListBooksInHandsOf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.library.LibraryTestSuite.testListBooksInHandsOf&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testing:cleanTest" />
-            <option value=":testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LibraryTestSuite.testListBooksInHandsOfSize0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.library.LibraryTestSuite.testListBooksInHandsOfSize0&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testing:cleanTest" />
-            <option value=":testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LibraryTestSuite.testListOfBooksWithConditionReturnList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.library.LibraryTestSuite.testListOfBooksWithConditionReturnList&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testing:cleanTest" />
-            <option value=":testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ShapeCollectorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testing.shape.ShapeCollectorTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testing:cleanTest" />
-            <option value=":testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="exceptions-and-testing" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="exceptions-and-testing" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.LibraryTestSuite.testListBooksInHandsOf" />
-        <item itemvalue="Gradle.LibraryTestSuite.testListBooksInHandsOfSize0" />
-        <item itemvalue="Gradle.LibraryTestSuite" />
-        <item itemvalue="Gradle.LibraryTestSuite.testListOfBooksWithConditionReturnList" />
-        <item itemvalue="Gradle.ShapeCollectorTestSuite" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -406,7 +310,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.39401296" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.40695792" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.36245954" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,7 +324,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49838188" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49838188" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50161815" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />

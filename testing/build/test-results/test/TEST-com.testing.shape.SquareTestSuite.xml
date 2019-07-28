@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testing.shape.SquareTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-07-28T12:00:44" hostname="Dell-Komputer" time="0.002">
+  <properties/>
+  <testcase name="testAreaOfFigure" classname="com.testing.shape.SquareTestSuite" time="0.001"/>
+  <testcase name="testNameOfFigure" classname="com.testing.shape.SquareTestSuite" time="0.001"/>
+  <system-out><![CDATA[Beginning the tests of methods from class Square
+The tests number 1 is executing
+Area of 'square' = 4.0
+Area of 'bigSquare' = 900.0
+The tests number 2 is executing
+The tests of methods from class Square are finished
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

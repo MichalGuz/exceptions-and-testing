@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testing.forum.statistics.CalculateStatisticsTestSuite" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-07-28T12:00:43" hostname="Dell-Komputer" time="1.461">
+  <properties/>
+  <testcase name="test2OfCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="1.433"/>
+  <testcase name="test4OfCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="0.002"/>
+  <testcase name="test5ofCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="0.002"/>
+  <testcase name="test8OfCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="0.002"/>
+  <testcase name="test0ofCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="0.004"/>
+  <testcase name="test1OfCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="0.004"/>
+  <testcase name="test3OfCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="0.005"/>
+  <testcase name="test6ofCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="0.001"/>
+  <testcase name="test7OfCalculateAdvStatistics" classname="com.testing.forum.statistics.CalculateStatisticsTestSuite" time="0.001"/>
+  <system-out><![CDATA[Tests for method of class CalculateStatistics are starting.
+Test #0 is starting.
+Test executing the method calculateAdvStatistics when number of posts equals 0, number of comments equals 10 and numbers of users equals 10
+Test #0 is finished.
+
+Test #1 is starting.
+Test executing the method calculateAdvStatistics when number of posts equals 1000, number of comments equals 10000 and numbers of users equals 100
+Test #1 is finished.
+
+Test #2 is starting.
+Test executing the method calculateAdvStatistics when number of posts equals 0 and we don't know numbers of users and comments
+Test #2 is finished.
+
+Test #3 is starting.
+Test executing the method calculateAdvStatistics when number of posts equals 1000 and we don't know numbers of users and comments
+Test #3 is finished.
+
+Test #4 is starting.
+Test executing the method calculateAdvStatistics when number of comments equals 0 and we don't know numbers of users and posts
+Test #4 is finished.
+
+Test #5 is starting.
+Test executing the method calculateAdvStatistics when number of comments is less than number of posts and we don't know the numbers of users, comments and posts
+Test #5 is finished.
+
+Test #6 is starting.
+Test executing the method calculateAdvStatistics when number of comments is more than number of posts and we don't know the numbers of users, comments and posts
+Test #6 is finished.
+
+Test #7 is starting.
+Test executing the method calculateAdvStatistics when number of users equals 0 and we don't know numbers of posts and comments
+Test #7 is finished.
+
+Test #8 is starting.
+Test executing the method calculateAdvStatistics when number of users equals 100 and we don't know numbers of posts and comments
+Test #8 is finished.
+
+Tests of method counting statistics of Forum are finished.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

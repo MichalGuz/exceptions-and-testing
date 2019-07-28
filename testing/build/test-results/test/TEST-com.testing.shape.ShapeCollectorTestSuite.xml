@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testing.shape.ShapeCollectorTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-07-28T12:00:44" hostname="Dell-Komputer" time="0.013">
+  <properties/>
+  <testcase name="testGetShape" classname="com.testing.shape.ShapeCollectorTestSuite" time="0.009"/>
+  <testcase name="testRemoveShape" classname="com.testing.shape.ShapeCollectorTestSuite" time="0.002"/>
+  <testcase name="testAddShape" classname="com.testing.shape.ShapeCollectorTestSuite" time="0.001"/>
+  <system-out><![CDATA[Beginning the tests of methods from class ShapeCollector
+The tests number 1 is executing
+The tests number 2 is executing
+The tests number 3 is executing
+The tests of methods from class ShapeCollector are finished
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
