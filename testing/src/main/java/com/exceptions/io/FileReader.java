@@ -11,8 +11,10 @@ public class FileReader {
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource("file/names.txt").getFile());
         Path path = Paths.get(file.getPath());
-        Stream<String>  fileLines = Files.lines(path);
+        Stream<String> fileLines = Files.lines(path);
 
         System.out.println(file.getPath());
+
+        O
     }
 }
