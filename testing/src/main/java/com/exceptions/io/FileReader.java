@@ -11,7 +11,7 @@ public class FileReader {
     public void readFile(){
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource("file/names.txt").getFile());
-        Path path = Paths.get("text/name.com");
+        Path path = Paths.get(file.getPath());
         try {
             Stream<String> fileLines = Files.lines(path);
             fileLines.forEach(System.out::println);
