@@ -11,12 +11,12 @@ public class FileReader {
     public void readFile(){
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource("file/names.txt").getFile());
-        Path path = Paths.get(file.getPath());
+        Path path = Paths.get("text/name.com");
         try {
             Stream<String> fileLines = Files.lines(path);
             fileLines.forEach(System.out::println);
         } catch (IOException e) {
-            System.out.println("Oh no! Something went wrong!");
+            System.out.println("Oh no! Something went wrong! Error: " + e);
         }
         System.out.println(file.getPath());
     }
