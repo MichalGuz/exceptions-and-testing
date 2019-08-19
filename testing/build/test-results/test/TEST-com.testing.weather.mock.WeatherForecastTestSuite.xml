@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.weather.mock.WeatherForecastTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-28T12:00:44" hostname="Dell-Komputer" time="0.018">
+<testsuite name="com.testing.weather.mock.WeatherForecastTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-19T19:15:41" hostname="Dell-Komputer" time="0.011">
   <properties/>
-  <testcase name="testCalculateForecastwithMock" classname="com.testing.weather.mock.WeatherForecastTestSuite" time="0.018"/>
+  <testcase name="testCalculateForecastwithMock" classname="com.testing.weather.mock.WeatherForecastTestSuite" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

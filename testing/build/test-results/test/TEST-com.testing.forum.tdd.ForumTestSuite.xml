@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.forum.tdd.ForumTestSuite" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-07-28T12:00:44" hostname="Dell-Komputer" time="0.015">
+<testsuite name="com.testing.forum.tdd.ForumTestSuite" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-08-19T19:15:41" hostname="Dell-Komputer" time="0.02">
   <properties/>
-  <testcase name="testOfRemovingCommentNotExisting" classname="com.testing.forum.tdd.ForumTestSuite" time="0.008"/>
+  <testcase name="testOfRemovingCommentNotExisting" classname="com.testing.forum.tdd.ForumTestSuite" time="0.006"/>
   <testcase name="testRemovePostNotExisting" classname="com.testing.forum.tdd.ForumTestSuite" time="0.0"/>
-  <testcase name="testAddPost" classname="com.testing.forum.tdd.ForumTestSuite" time="0.0"/>
-  <testcase name="testGetPost" classname="com.testing.forum.tdd.ForumTestSuite" time="0.001"/>
-  <testcase name="testRemoveComment" classname="com.testing.forum.tdd.ForumTestSuite" time="0.001"/>
-  <testcase name="testRemovePost" classname="com.testing.forum.tdd.ForumTestSuite" time="0.001"/>
-  <testcase name="testGetComment" classname="com.testing.forum.tdd.ForumTestSuite" time="0.0"/>
-  <testcase name="testAddComment" classname="com.testing.forum.tdd.ForumTestSuite" time="0.001"/>
+  <testcase name="testAddPost" classname="com.testing.forum.tdd.ForumTestSuite" time="0.001"/>
+  <testcase name="testGetPost" classname="com.testing.forum.tdd.ForumTestSuite" time="0.004"/>
+  <testcase name="testRemoveComment" classname="com.testing.forum.tdd.ForumTestSuite" time="0.002"/>
+  <testcase name="testRemovePost" classname="com.testing.forum.tdd.ForumTestSuite" time="0.0"/>
+  <testcase name="testGetComment" classname="com.testing.forum.tdd.ForumTestSuite" time="0.004"/>
+  <testcase name="testAddComment" classname="com.testing.forum.tdd.ForumTestSuite" time="0.0"/>
   <system-out><![CDATA[this is the beginning of tests
 Preparing to execute test #1
 Preparing to execute test #2

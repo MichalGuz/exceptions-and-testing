@@ -14,7 +14,9 @@ public class FileReader {
         Path path = Paths.get(file.getPath());
         try {
             Stream<String> fileLines = Files.lines(path);
+            fileLines.forEach(System.out::println);
         } catch (IOException e) {
+            System.out.println("Oh no! Something went wrong!");
         }
         System.out.println(file.getPath());
     }
