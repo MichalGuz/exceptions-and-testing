@@ -12,8 +12,7 @@ public class FileReader {
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource("file/names.txt").getFile());
         Path path = Paths.get(file.getPath());
-        try {
-            Stream<String> fileLines = Files.lines(path);
+        try (Stream<String> fileLines = Files.lines(path)){
             fileLines.forEach(System.out::println);
         } catch (IOException e) {
             System.out.println("Oh no! Something went wrong! Error: " + e);
