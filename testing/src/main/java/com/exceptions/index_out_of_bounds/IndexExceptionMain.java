@@ -7,9 +7,13 @@ public class IndexExceptionMain {
         YourVideoCollector videoCollector = new YourVideoCollector();
         List<String> collection = videoCollector.getCollectio();
 
-        String video1 = collection.get(0);
-        String video2 = collection.get(2);
-        System.out.println(video1);
-        System.out.println(video2);
+        if(collection.size() > 0) {
+            String video1 = collection.get(0);
+            System.out.println(video1);
+            if (collection.size() > 2) {
+                String video2 = collection.get(2);
+                System.out.println(video2);
+            }
+        }
     }
 }
