@@ -1,4 +1,4 @@
-package com.exceptions.io;
+package com.exceptions.io_throws;
 
 import java.io.File;
 import java.io.IOException;
