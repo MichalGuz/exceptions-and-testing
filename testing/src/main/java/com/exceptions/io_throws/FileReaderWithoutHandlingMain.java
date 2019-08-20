@@ -5,6 +5,11 @@ import com.exceptions.io.FileReader;
 public class FileReaderWithoutHandlingMain {
     public static void main(String[] args) {
         FileReaderWithoutHandling fileReader = new FileReaderWithoutHandling();
-        fileReader.readFile();
+        try {
+            fileReader.readFile();
+        } catch (FileReaderException e) {
+            System.out.println("Problem while reading a file!");
+        }
+
     }
 }
