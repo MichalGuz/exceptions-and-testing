@@ -13,6 +13,8 @@ public class ArithmeticExceptionHandler {
         try {
             double result = handler.divide(3,0);
             System.out.println("Result = " + result);
+        } catch (ArithmeticException e){
+            System.out.println("You can't divide by zero. Give new numbers and try again!");
         }
     }
 }
