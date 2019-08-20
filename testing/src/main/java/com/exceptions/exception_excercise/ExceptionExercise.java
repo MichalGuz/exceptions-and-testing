@@ -5,6 +5,7 @@ public class ExceptionExercise {
         if (a >= 2 ||  a < 1 || b == 1.5) {
             throw new Exception();
         }
+        System.out.println("Done!'");
         return "Done!";
     }
 }
