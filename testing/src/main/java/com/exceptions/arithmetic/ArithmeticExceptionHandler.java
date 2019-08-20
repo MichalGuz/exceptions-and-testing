@@ -15,6 +15,8 @@ public class ArithmeticExceptionHandler {
             System.out.println("Result = " + result);
         } catch (ArithmeticException e){
             System.out.println("You can't divide by zero. Give new numbers and try again!");
+        } finally {
+            System.out.println("Return to the top of the page.");
         }
     }
 }
