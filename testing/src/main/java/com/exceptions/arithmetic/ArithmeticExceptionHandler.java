@@ -7,4 +7,8 @@ public class ArithmeticExceptionHandler {
         }
         return a / b;
     }
+
+    public static void main(String[] args) {
+        ArithmeticExceptionHandler handler = new ArithmeticExceptionHandler();
+    }
 }
