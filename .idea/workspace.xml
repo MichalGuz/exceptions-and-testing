@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testing/src/main/java/com/exceptions/io_throws/FileReaderWithoutHandlingMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/src/main/java/com/exceptions/exception_excercise/ExceptionExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/exceptions/exception_excercise/ExceptionExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/src/main/java/com/exceptions/exception_excercise/ExceptionExerciseHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/exceptions/exception_excercise/ExceptionExerciseHandling.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,20 +43,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/io_throws/FileReaderWithoutHandlingMain.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/exception_excercise/ExceptionExercise.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/io/FileReaderMain.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/exception_excercise/ExceptionExerciseHandling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -84,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testing/src/main/java/Member.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/TestingMain.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/Member/TestingMain.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/Calculator/TestingCalculator.java" />
@@ -131,7 +131,11 @@
         <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/arithmetic/ArithmeticExceptionHandler.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/io/FileReaderWithoutHandling.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/io/FileReaderMain.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/io_throws/FileReaderException.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/io_throws/FileReaderWithoutHandlingMain.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/io_throws/FileReaderWithoutHandling.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/exception_excercise/ExceptionExercise.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/exception_excercise/ExceptionExerciseHandling.java" />
       </list>
     </option>
   </component>
@@ -221,6 +225,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="exception_excercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceptions-and-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,13 +298,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExceptionExerciseHandling">
     <configuration name="ArithmeticExceptionHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exceptions.arithmetic.ArithmeticExceptionHandler" />
       <module name="exception-and-testing.testing.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.exceptions.arithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionExerciseHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exceptions.exception_excercise.ExceptionExerciseHandling" />
+      <module name="exception-and-testing.testing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exceptions.exception_excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,6 +340,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionExerciseHandling" />
         <item itemvalue="Application.ArithmeticExceptionHandler" />
         <item itemvalue="Application.FileReaderMain" />
       </list>
@@ -374,35 +403,6 @@
       <window_info id="Favorites" order="6" sideWeight="0.5023148" side_tool="true" weight="0.36245954" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" visible="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.26537216" />
-      <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.36245954" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5023148" side_tool="true" weight="0.36245954" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -421,7 +421,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -758,20 +758,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/io_throws/FileReaderWithoutHandling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/resources/file/names.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/io_throws/FileReaderWithoutHandlingMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/io_throws/FileReaderException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/io_throws/FileReaderWithoutHandling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -782,10 +793,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/io_throws/FileReaderWithoutHandlingMain.java">
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/exception_excercise/ExceptionExercise.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/exception_excercise/ExceptionExerciseHandling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
