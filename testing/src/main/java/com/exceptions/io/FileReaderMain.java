@@ -1,8 +1,6 @@
-package com.exceptions.main;
+package com.exceptions.io;
 
-import com.exceptions.io.FileReader;
-
-public class ExeceptionsRunner {
+public class FileReaderMain {
     public static void main(String[] args) {
         FileReader fileReader = new FileReader();
         fileReader.readFile();
