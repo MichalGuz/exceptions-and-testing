@@ -10,5 +10,7 @@ public class ArithmeticExceptionHandler {
 
     public static void main(String[] args) {
         ArithmeticExceptionHandler handler = new ArithmeticExceptionHandler();
+        double result = handler.divide(3,0);
+        System.out.println("Result = " + result);
     }
 }
