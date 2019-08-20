@@ -5,6 +5,8 @@ public class ExceptionExerciseHandling {
         ExceptionExercise exercise = new ExceptionExercise();
         try {
             exercise.probablyWillThrowException(1, 2);
+        } catch (Exception e){
+            System.out.println("Argument's error! Please check values of arguments and try again.");
         }
     }
 }
