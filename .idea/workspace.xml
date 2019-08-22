@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e14aa58-8663-4199-9ca9-9e59d357c4b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/testing/src/main/java/com/exceptions/index_out_of_bounds/IndexExceptionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/exceptions/index_out_of_bounds/IndexExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightSearchingRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightSearching.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightSearching.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,11 +51,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/index_out_of_bounds/YourVideoCollector.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightNotFoundException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="2" selection-end-line="7" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/Flight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="2" selection-end-line="19" />
+              <folding>
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightSearching.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" lean-forward="true" selection-start-line="5" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/index_out_of_bounds/IndexExceptionMain.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightSearchingRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="2" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -87,10 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testing/src/main/java/collection/OddNumbersExterminator.java" />
-        <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/calculator/collection/OddNumbersExterminator.java" />
-        <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/collection/Numbers.java" />
-        <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/collection/ApplicationCollection.java" />
         <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/platform/PlatformTestSuite.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/testing/collection/OddNumbersExterminator.java" />
         <option value="$PROJECT_DIR$/testing/src/test/java/com/testing/collection/CollectionTestSuite.java" />
@@ -138,6 +171,10 @@
         <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/nullpointer/NullpointerRunner.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/index_out_of_bounds/YourVideoCollector.java" />
         <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/index_out_of_bounds/IndexExceptionMain.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightNotFoundException.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/Flight.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightSearching.java" />
+        <option value="$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightSearchingRunner.java" />
       </list>
     </option>
   </component>
@@ -227,7 +264,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-              <item name="index_out_of_bounds" type="462c0819:PsiDirectoryNode" />
+              <item name="flight_not_found" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceptions-and-testing" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IndexExceptionMain">
+  <component name="RunManager" selected="Application.FlightSearchingRunner">
     <configuration name="ArithmeticExceptionHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exceptions.arithmetic.ArithmeticExceptionHandler" />
       <module name="exception-and-testing.testing.main" />
@@ -327,12 +364,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReaderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exceptions.io.FileReaderMain" />
+    <configuration name="FlightSearchingRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exceptions.flight_not_found.FlightSearchingRunner" />
       <module name="exception-and-testing.testing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exceptions.io.*" />
+          <option name="PATTERN" value="com.exceptions.flight_not_found.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,11 +405,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlightSearchingRunner" />
         <item itemvalue="Application.IndexExceptionMain" />
         <item itemvalue="Application.NullpointerRunner" />
         <item itemvalue="Application.ExceptionExerciseHandling" />
         <item itemvalue="Application.ArithmeticExceptionHandler" />
-        <item itemvalue="Application.FileReaderMain" />
       </list>
     </recent_temporary>
   </component>
@@ -423,8 +460,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.26537216" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.26941746" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.36245954" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,7 +476,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -459,36 +497,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/collection/ApplicationCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/collection/OddNumbersExterminator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/weather/stub/TemperaturesStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumPost.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/forum/ForumComment.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/testing/shape/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -840,6 +848,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/index_out_of_bounds/IndexExceptionMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/index_out_of_bounds/YourVideoCollector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -850,10 +865,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/index_out_of_bounds/IndexExceptionMain.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightSearchingRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="2" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightSearching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="5" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/Flight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="2" selection-end-line="19" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/main/java/com/exceptions/flight_not_found/FlightNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="2" selection-end-line="7" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
